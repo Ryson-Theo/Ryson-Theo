@@ -1,27 +1,136 @@
-# 💫 About Me:
-### 💡 Modern Full-Stack Development<br><br>Hello! I'm **Ribin K Roy**, a Final-Year BCA student with a deep passion for modern web development, specializing in the **MERN Stack** (MongoDB, Express, React, Node.js).<br><br>I architect dynamic and scalable applications, utilizing **React** for intuitive user interfaces and **Node.js/Express** for high-performance server logic. I also have a solid foundation in **PHP/MySQL** for traditional full-stack solutions.<br><br>My unique strength lies in combining my development skills with a strong interest in **UI/UX Design**. I strive to build user experiences that are as effective under the hood as they are delightful on the screen.<br><br>I am eager to join a team in a **Software Development role**, bringing my versatile full-stack capabilities and design-first mindset to innovative projects.
+<div align="center">
+  <img
+    src="https://media1.tenor.com/m/zHi1yy-QyTUAAAAd/anime-train.gif"
+    alt="Hero Banner"
+    width="100%"
+    height="160"
+  />
 
+  # RIBIN K ROY
 
-## 🌐 Socials:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/ryson-theo.bsky.social) [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/ribinkroy) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ryson_theo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ribin-k-roy) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@@ryson_theo) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Ryson_Theo) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ribinkroy0@gmail.com) 
+  ### Full-Stack Developer (MERN) | Backend & Systems Learner | Exploring AI/ML
 
-# 💻 Tech Stack:
-![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=flat-square&logo=chart.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=flat-square&logo=Adobe%20XD&logoColor=#FF61F6) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=flat-square&logo=dribbble&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Ryson-Theo&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Ryson-Theo&theme=chartreuse-dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ryson-Theo&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+  > I build web applications with a focus on clean backend logic, scalable APIs, and practical real-world systems. Currently expanding into Python, ML, and backend infrastructure tools.
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Ryson-Theo&theme=apprentice&no-frame=false&no-bg=true&margin-w=4)
+  &nbsp;
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+  <div align="center">
+    <img src="https://img.shields.io/badge/Full--Stack_Developer-MERN-22C55E?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Backend-Node.js_•_Laravel_•_Django-3B82F6?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Databases-MySQL_•_PostgreSQL_•_MongoDB-8B5CF6?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Learning-AI/ML_•_Cloud_•_DevOps-F97316?style=for-the-badge" />
+  </div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Ryson-Theo&limit=5&theme=merko&combine_all_yearly_contributions=true)
+  &nbsp;
 
----
-[![](https://visitcount.itsvg.in/api?id=Ryson-Theo&icon=0&color=0)](https://visitcount.itsvg.in)
+  ---
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+  &nbsp;
+
+  <table align="center" width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed; border-collapse: collapse;">
+    <tr>
+      <td width="45%" valign="middle" style="padding-right: 20px; padding-top: 5px; padding-bottom: 5px;">
+        <div style="text-align: center;">
+          <div style="text-align: left; max-width: 100%;">
+            <h3 style="margin: 0; margin-top: 0; font-size: 18px; line-height: 1.2; color: #333; font-family: sans-serif;">Connect with me</h3>
+            <p style="margin: 4px 0 0 0; color: #666; font-size: 14px; line-height: 1.4; font-family: sans-serif;">
+              Open to collaborations, ideas &amp; opportunities.
+            </p>
+          </div>
+        </div>
+      </td>
+      <td width="55%" valign="middle" style="padding-left: 20px; padding-top: 5px; padding-bottom: 5px;">
+        <table cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
+          <tr>
+            <!-- GitHub -->
+            <td style="padding-right: 15px; vertical-align: middle;">
+              <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
+                    <a href="https://github.com/Ryson-Theo" target="_blank">
+                      <img src="https://cdn.simpleicons.org/github/ffffff" width="24" height="24" alt="GitHub" style="display: block; border: 0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!-- LinkedIn -->
+            <td style="padding-right: 15px; vertical-align: middle;">
+              <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
+                    <a href="https://www.linkedin.com/in/ribin-k-roy/">
+                      <img src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" width="24" height="24" alt="LinkedIn" style="display:block; border:0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!-- Email (Fixed duplicate img tag) -->
+            <td style="padding-right: 15px; vertical-align: middle;">
+              <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
+                    <a href="mailto:rysontheo@proton.me" target="_blank">
+                      <img src="https://img.icons8.com/ios-filled/50/FFFFFF/new-post.png" width="24" height="24" alt="Email" style="display:block; border:0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!-- Portfolio -->
+            <td style="padding-right: 15px; vertical-align: middle;">
+              <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
+                    <a href="https://www.self.so/ribin-k-roy">
+                      <img src="https://img.icons8.com/material-rounded/48/FFFFFF/briefcase.png" width="26" height="26" alt="Portfolio" style="display:block; border:0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!-- X (Twitter) -->
+            <td style="padding-right: 15px; vertical-align: middle;">
+              <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
+                    <a href="https://x.com/Ryson_Theo" target="_blank">
+                      <img src="https://cdn.simpleicons.org/x/ffffff" width="24" height="24" alt="X" style="display: block; border: 0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <!-- Bluesky -->
+            <td style="padding-right: 15px; vertical-align: middle;">
+              <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
+                    <a href="https://bsky.app/profile/ryson-theo.bsky.social" target="_blank">
+                      <img src="https://cdn.simpleicons.org/bluesky/ffffff" width="24" height="24" alt="Bluesky" style="display: block; border: 0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          <!-- Behance -->
+            <td style="vertical-align: middle;">
+              <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
+                    <a href="https://www.behance.net/ribinkroy" target="_blank">
+                      <img src="https://cdn.simpleicons.org/behance/ffffff" width="24" height="24" alt="Behance" style="display: block; border: 0;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  &nbsp;
+</div>
