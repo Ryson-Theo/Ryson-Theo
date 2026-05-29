@@ -1,10 +1,6 @@
+
 <div align="center">
-  <img
-    src="https://media1.tenor.com/m/zHi1yy-QyTUAAAAd/anime-train.gif"
-    alt="Hero Banner"
-    width="100%"
-    height="160"
-  />
+  <img width="1120" height="190" alt="train-ezgif com-optimize" src="https://github.com/user-attachments/assets/e8038049-5c2e-4731-86f6-c0952b5dabaf" />
 
   # RIBIN K ROY
 
