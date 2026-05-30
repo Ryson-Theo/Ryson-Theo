@@ -143,9 +143,41 @@
 </p>&nbsp;
 
 ---
+&nbsp;
 
 ## About
 
+
 I build scalable APIs and production-ready systems with MERN, focusing on backend architecture and data integrity. My engineering philosophy prioritizes clean abstractions over clever hacks. Currently expanding into Python, ML, and cloud infrastructure to bridge full-stack development with intelligent systems.
 
+
+
+---
+&nbsp;
+
+## Core Engineering Focus
+
+### Backend & System Design
+*   **Focus:** Scalable API architecture and data integrity.
+*   **Tech Stack:** Node.js, Express, MongoDB (MERN), PHP, MySQL, PostgreSQL.
+*   **Key Builds:** 
+    *   Designed secure REST APIs with JWT auth and RBAC for MERN applications.
+    *   Engineered normalized MySQL schemas for complex PHP data relationships.
+    *   Currently architecting PostgreSQL implementations to optimize for ACID compliance and complex joins.
+
+### Frontend & UX Engineering
+*   **Focus:** Responsive, maintainable component systems.
+*   **Tech Stack:** React, Context API, Modern CSS, i18n.
+*   **Key Builds:** 
+    *   Developed reusable component libraries to standardize UI across projects.
+    *   Implemented mobile-first responsive layouts with multi-language (i18n) support.
+    *   Optimized rendering performance through efficient state management and lazy loading.
+
+### AI & Data Engineering (Active Development)
+*   **Focus:** Bridging full-stack logic with data automation and computer vision.
+*   **Tech Stack:** Python, OpenCV, TensorFlow, Docker.
+*   **Current Work:** 
+    *   Building custom data pipelines to automate image preprocessing and vectorization.
+    *   Developing new prototypes to integrate ML inference into web workflows.
+    *   Experimenting with containerized deployment for reproducible AI environments.
 ---
