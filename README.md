@@ -20,7 +20,6 @@
   &nbsp;
 
   ---
-
   &nbsp;
 
   <table align="center" width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed; border-collapse: collapse;">
@@ -127,11 +126,8 @@
       </td>
     </tr>
   </table>
-
-  &nbsp;
 </div>
-
-  &nbsp;
+&nbsp;
  <p align="center">
 
 <img src="https://api.iconify.design/lucide:map-pin.svg?color=%23ffffff" width="18" alt="Location" style="padding: 10px;" />
@@ -144,6 +140,12 @@
   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
  <img src="https://cdn.simpleicons.org/rocket/ffffff" width="18" alt="Focus" />
   <strong>System&nbsp;Design&nbsp;•&nbsp;AI/ML</strong>
-</p>
-  &nbsp;
-  &nbsp;
+</p>&nbsp;
+
+---
+
+## About
+
+I build scalable APIs and production-ready systems with MERN, focusing on backend architecture and data integrity. My engineering philosophy prioritizes clean abstractions over clever hacks. Currently expanding into Python, ML, and cloud infrastructure to bridge full-stack development with intelligent systems.
+
+---
