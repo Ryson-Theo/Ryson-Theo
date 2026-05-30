@@ -221,3 +221,16 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
 - **Data & AI:** &nbsp; Python • OpenCV • TensorFlow *(Prototyping)*
 
 ---
+## Activity
+
+<table>
+<tr>
+<td width="70%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ryson-Theo&theme=github_dark" width="100%">
+</td>
+
+<td width="30%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ryson-Theo&theme=github_dark" width="100%">
+</td>
+</tr>
+</table>
