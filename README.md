@@ -1,7 +1,6 @@
-
 <div align="center">
-  <img width="1120" height="190" alt="train-ezgif com-optimize" src="https://github.com/user-attachments/assets/e8038049-5c2e-4731-86f6-c0952b5dabaf" />
-
+  <img src="./assets/header-banner.gif" alt="Header Banner" width="100%" />
+  
   # RIBIN K ROY
 
   ### Full-Stack Developer (MERN) | Backend & Systems Learner | Exploring AI/ML
@@ -259,3 +258,24 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
 - **Open To:** Full-time roles, internships, and collaborative projects
 
 ---
+
+## Collaboration & Work Style
+
+* Prefer async communication, clear documentation, and well-defined responsibilities.
+* Enjoy building backend systems and full-stack applications through iterative development.
+* Value clean, maintainable code and continuous learning through collaboration and feedback.
+
+---
+
+## Get in Touch
+
+<div align="center">
+  <a href="mailto:rysontheo@proton.me">Email</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+  <a href="https://www.linkedin.com/in/ribin-k-roy/">LinkedIn</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+  <a href="https://github.com/Ryson-Theo">GitHub</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+  <a href="https://www.self.so/ribin-k-roy">Portfolio</a>
+</div>
+
+<div align="center">
+  <img src="./assets/footer-banner.gif" alt="Footer Banner" width="100%" />
+</div>
