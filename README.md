@@ -237,9 +237,14 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
 
 ---
 
-## Collaboration Experience
+## Open Source & Collaboration
 
-- Co-developed **RemoteTeamPro** as a two-person university project.
-- Worked on separate modules and coordinated integration through shared code exchanges and testing.
-- Consolidated independently developed features into a single production-ready application.
-- Published the final codebase on GitHub after project completion.
+- Participated in Hacktoberfest and contributed to open-source projects.
+- Earned multiple community contribution badges through Holopin.
+- Co-developed **RemoteTeamPro** as a team-based university project, collaborating on feature development, testing, and system integration.
+
+<p align="center">
+  <a href="https://holopin.io/@ribinkroy">
+    <img src="https://holopin.me/ribinkroy" alt="Holopin Badges" />
+  </a>
+</p>
