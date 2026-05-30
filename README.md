@@ -6,7 +6,7 @@
 
   ### Full-Stack Developer (MERN) | Backend & Systems Learner | Exploring AI/ML
 
-  > I build web applications with a focus on clean backend logic, scalable APIs, and practical real-world systems. Currently expanding into Python, ML, and backend infrastructure tools.
+  > Building scalable APIs and production-ready systems with MERN. Expanding into Python, ML, and cloud infrastructure.
 
   &nbsp;
 
