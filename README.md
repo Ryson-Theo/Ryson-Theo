@@ -248,3 +248,14 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
     <img src="https://holopin.me/ribinkroy" alt="Holopin Badges" />
   </a>
 </p>
+
+---
+
+## Current Focus
+
+- **Building:** Python data pipelines and PostgreSQL-based systems
+- **Learning:** Docker, CI/CD, and ML inference patterns
+- **Goal:** Cloud-native backend engineering with AI integration
+- **Open To:** Full-time roles, internships, and collaborative projects
+
+---
