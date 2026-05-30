@@ -210,3 +210,14 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
 **Links:** [GitHub](https://github.com/Ryson-Theo/RemoteTeamPro)
 
 ---
+---
+
+## Tech Stack
+
+- **Frontend:** &nbsp; React • JavaScript • Tailwind CSS
+- **Backend:** &nbsp; Node.js • Express.js • PHP
+- **Databases:** &nbsp; MongoDB • MySQL
+- **DevOps & Tools:** &nbsp; Git • Docker
+- **Data & AI:** &nbsp; Python • OpenCV • TensorFlow *(Prototyping)*
+
+---
