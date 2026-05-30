@@ -130,3 +130,20 @@
 
   &nbsp;
 </div>
+
+  &nbsp;
+ <p align="center">
+
+<img src="https://api.iconify.design/lucide:map-pin.svg?color=%23ffffff" width="18" alt="Location" style="padding: 10px;" />
+  <strong>Kerala, India &nbsp; •&nbsp; Remote</strong>
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/MERN-22C55E?style=flat-square&logo=mongodb&logoColor=white" height="18" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="18" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" height="18" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="18" />
+  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+ <img src="https://cdn.simpleicons.org/rocket/ffffff" width="18" alt="Focus" />
+  <strong>System&nbsp;Design&nbsp;•&nbsp;AI/ML</strong>
+</p>
+  &nbsp;
+  &nbsp;
