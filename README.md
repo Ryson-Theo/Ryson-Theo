@@ -234,3 +234,12 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
 </td>
 </tr>
 </table>
+
+---
+
+## Collaboration Experience
+
+- Co-developed **RemoteTeamPro** as a two-person university project.
+- Worked on separate modules and coordinated integration through shared code exchanges and testing.
+- Consolidated independently developed features into a single production-ready application.
+- Published the final codebase on GitHub after project completion.
