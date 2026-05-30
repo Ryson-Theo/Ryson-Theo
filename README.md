@@ -181,3 +181,32 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
     *   Developing new prototypes to integrate ML inference into web workflows.
     *   Experimenting with containerized deployment for reproducible AI environments.
 ---
+## Featured Projects
+
+### CropVector
+
+**Problem:** Agricultural decisions often require data from multiple disconnected sources, making timely crop planning and monitoring difficult.
+
+**What I Built:** A full-stack agricultural intelligence platform that combines weather forecasts, satellite vegetation data (NDVI), and market prices into a unified system with role-based workflows and real-time expert consultations.
+
+**Tech Stack:** React, Node.js, Express.js, MongoDB, Socket.io, Firebase Auth.
+
+**Impact:** Unified disparate data streams (OpenMeteo, Kaegro NDVI, Mandi prices) into a single decision-support engine, enabling rule-based crop recommendations, real-time pest alerts, and a secure marketplace for farmers, experts, and buyers.
+
+**Links:**  • [GitHub](https://github.com/Ryson-Theo/CropVector)
+
+---
+
+### RemoteTeamPro
+
+**Problem:** Remote teams often manage attendance, project tracking, and reporting across multiple disconnected tools.
+
+**What I Built:** A self-hosted workforce management system with role-based access control, automated attendance processing, client portals, and dynamic reporting workflows.
+
+**Tech Stack:** PHP, MySQL, JavaScript, Tailwind CSS, PHPMailer, Dompdf.
+
+**Impact:** Streamlined team operations by automating attendance tracking, report generation, and client-facing project management processes.
+
+**Links:** [GitHub](https://github.com/Ryson-Theo/RemoteTeamPro)
+
+---
