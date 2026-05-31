@@ -19,114 +19,62 @@
   &nbsp;
 
   ---
-  &nbsp;
+ <h2 align="center">Let's Connect</h2>
 
-  <table align="center" width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed; border-collapse: collapse;">
-    <tr>
-      <td width="45%" valign="middle" style="padding-right: 20px; padding-top: 5px; padding-bottom: 5px;">
-        <div style="text-align: center;">
-          <div style="text-align: left; max-width: 100%;">
-            <h3 style="margin: 0; margin-top: 0; font-size: 18px; line-height: 1.2; color: #333; font-family: sans-serif;">Connect with me</h3>
-            <p style="margin: 4px 0 0 0; color: #666; font-size: 14px; line-height: 1.4; font-family: sans-serif;">
-              Open to collaborations, ideas &amp; opportunities.
-            </p>
-          </div>
-        </div>
-      </td>
-      <td width="55%" valign="middle" style="padding-left: 20px; padding-top: 5px; padding-bottom: 5px;">
-        <table cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse;">
-          <tr>
-            <!-- GitHub -->
-            <td style="padding-right: 15px; vertical-align: middle;">
-              <table cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
-                    <a href="https://github.com/Ryson-Theo" target="_blank">
-                      <img src="https://cdn.simpleicons.org/github/ffffff" width="24" height="24" alt="GitHub" style="display: block; border: 0;" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-            <!-- LinkedIn -->
-            <td style="padding-right: 15px; vertical-align: middle;">
-              <table cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
-                    <a href="https://www.linkedin.com/in/ribin-k-roy/">
-                      <img src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" width="24" height="24" alt="LinkedIn" style="display:block; border:0;" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-            <!-- Email (Fixed duplicate img tag) -->
-            <td style="padding-right: 15px; vertical-align: middle;">
-              <table cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
-                    <a href="mailto:rysontheo@proton.me" target="_blank">
-                      <img src="https://img.icons8.com/ios-filled/50/FFFFFF/new-post.png" width="24" height="24" alt="Email" style="display:block; border:0;" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-            <!-- Portfolio -->
-            <td style="padding-right: 15px; vertical-align: middle;">
-              <table cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
-                    <a href="https://www.self.so/ribin-k-roy">
-                      <img src="https://img.icons8.com/material-rounded/48/FFFFFF/briefcase.png" width="26" height="26" alt="Portfolio" style="display:block; border:0;" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-            <!-- X (Twitter) -->
-            <td style="padding-right: 15px; vertical-align: middle;">
-              <table cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
-                    <a href="https://x.com/Ryson_Theo" target="_blank">
-                      <img src="https://cdn.simpleicons.org/x/ffffff" width="24" height="24" alt="X" style="display: block; border: 0;" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-            <!-- Bluesky -->
-            <td style="padding-right: 15px; vertical-align: middle;">
-              <table cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
-                    <a href="https://bsky.app/profile/ryson-theo.bsky.social" target="_blank">
-                      <img src="https://cdn.simpleicons.org/bluesky/ffffff" width="24" height="24" alt="Bluesky" style="display: block; border: 0;" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          <!-- Behance -->
-            <td style="vertical-align: middle;">
-              <table cellspacing="0" cellpadding="0" border="0">
-                <tr>
-                  <td style="background-color: #2A2A2A; border-radius: 50%; padding: 6px;">
-                    <a href="https://www.behance.net/ribinkroy" target="_blank">
-                      <img src="https://cdn.simpleicons.org/behance/ffffff" width="24" height="24" alt="Behance" style="display: block; border: 0;" />
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+<p align="center">
+  <strong>BCA Graduate</strong> • MG University, Kottayam<br>
+  Full-Stack Developer (MERN) • Backend & Systems Learner
+</p>
+
+<p align="center">
+  Open to collaborations, internships, freelance work, and opportunities.
+</p>
+ &nbsp;&nbsp;
+<p align="center">
+  <a href="https://github.com/Ryson-Theo">
+    <img src="https://cdn.simpleicons.org/github/ffffff" width="28" alt="GitHub" />
+  </a>
+&nbsp;&nbsp;
+  &nbsp;&nbsp; &nbsp;&nbsp;
+
+  <a href="https://www.linkedin.com/in/ribin-k-roy/">
+    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" width="28" alt="LinkedIn" />
+  </a>
+&nbsp;&nbsp;
+  &nbsp;&nbsp; &nbsp;&nbsp;
+
+  <a href="mailto:rysontheo@proton.me">
+    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/new-post.png" width="28" alt="Email" />
+  </a>
+&nbsp;&nbsp;
+  &nbsp;&nbsp; &nbsp;&nbsp;
+
+  <a href="https://www.self.so/ribin-k-roy">
+    <img src="https://img.icons8.com/material-rounded/48/FFFFFF/briefcase.png" width="28" alt="Portfolio" />
+  </a>
+&nbsp;&nbsp;
+  &nbsp;&nbsp; &nbsp;&nbsp;
+
+  <a href="https://x.com/Ryson_Theo">
+    <img src="https://cdn.simpleicons.org/x/ffffff" width="28" alt="X" />
+  </a>
+&nbsp;&nbsp;
+  &nbsp;&nbsp; &nbsp;&nbsp;
+
+  <a href="https://bsky.app/profile/ryson-theo.bsky.social">
+    <img src="https://cdn.simpleicons.org/bluesky/ffffff" width="28" alt="Bluesky" />
+  </a>
+&nbsp;&nbsp;
+  &nbsp;&nbsp; &nbsp;&nbsp;
+
+  <a href="https://www.behance.net/ribinkroy">
+    <img src="https://cdn.simpleicons.org/behance/ffffff" width="28" alt="Behance" />
+  </a>
+</p>
+
 </div>
-&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
  <p align="center">
 
 <img src="https://api.iconify.design/lucide:map-pin.svg?color=%23ffffff" width="18" alt="Location" style="padding: 10px;" />
@@ -139,7 +87,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
  <img src="https://cdn.simpleicons.org/rocket/ffffff" width="18" alt="Focus" />
   <strong>System&nbsp;Design&nbsp;•&nbsp;AI/ML</strong>
-</p>&nbsp;
+</p>
 
 ---
 &nbsp;
