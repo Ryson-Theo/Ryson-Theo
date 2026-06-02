@@ -43,7 +43,7 @@
 &nbsp;&nbsp;
   &nbsp;&nbsp; &nbsp;&nbsp;
 
-  <a href="mailto:rysontheo@proton.me">
+  <a href="mailto:Ribinkroy@protonmail.com">
     <img src="https://img.icons8.com/ios-filled/50/FFFFFF/new-post.png" width="28" alt="Email" />
   </a>
 &nbsp;&nbsp;
