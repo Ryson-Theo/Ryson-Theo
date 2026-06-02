@@ -225,5 +225,5 @@ I build scalable APIs and production-ready systems with MERN, focusing on backen
 </div>
 
 <div align="center">
-  <img src="./assets/footer-banner.gif" alt="Footer Banner" width="100%" />
+  <img src="./assets/footer-banner.jpg" alt="Footer Banner" width="100%" />
 </div>
