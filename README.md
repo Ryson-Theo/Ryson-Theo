@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header-banner.jpg" alt="Header Banner" width="100%" />
+  <img src="./assets/header-banner.jpg" alt="Header Banner" width="100%" height="80%" />
   
   # RIBIN K ROY
 
