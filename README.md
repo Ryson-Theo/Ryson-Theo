@@ -49,7 +49,7 @@
 &nbsp;&nbsp;
   &nbsp;&nbsp; &nbsp;&nbsp;
 
-  <a href="https://www.self.so/ribin-k-roy">
+  <a href="https://ribin-portfolio.vercel.app/">
     <img src="https://img.icons8.com/material-rounded/48/FFFFFF/briefcase.png" width="28" alt="Portfolio" />
   </a>
 &nbsp;&nbsp;
