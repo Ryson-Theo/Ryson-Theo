@@ -95,7 +95,7 @@
 ## About
 
 
-I build scalable APIs and production-ready systems with MERN, focusing on backend architecture and data integrity. My engineering philosophy prioritizes clean abstractions over clever hacks. Currently expanding into Python, ML, and cloud infrastructure to bridge full-stack development with intelligent systems.
+I build scalable APIs and production-ready systems with MERN/MEAN, focusing on backend architecture and data integrity. My engineering philosophy prioritizes clean abstractions over clever hacks. Currently expanding into Python, ML, and cloud infrastructure to bridge full-stack development with intelligent systems.
 
 
 
