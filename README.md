@@ -97,7 +97,9 @@
 
 I build scalable APIs and production-ready systems with MERN/MEAN stack, focusing on backend architecture and data integrity. My engineering philosophy prioritizes clean abstractions over clever hacks. Currently expanding into Python, ML, and cloud infrastructure to bridge full-stack development with intelligent systems.
 
-
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=Ryson-Theo&label=PROFILE%20VISITS&color=0b5c9e&style=for-the-badge" alt="Ryson-Theo Profile Views" />
+</p>
 
 ---
 &nbsp;
