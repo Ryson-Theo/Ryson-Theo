@@ -14,6 +14,9 @@
     <img src="https://img.shields.io/badge/Backend-Node.js_•_Laravel_•_Django-3B82F6?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Databases-MySQL_•_PostgreSQL_•_MongoDB-8B5CF6?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Learning-AI/ML_•_Cloud_•_DevOps-F97316?style=for-the-badge" />
+    <a href="https://g.dev/ribinkroy" target="_blank">
+  <img src="https://img.shields.io/badge/Google_Dev_Program-Member-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Program Profile" />
+</a>
   </div>
 
   &nbsp;
