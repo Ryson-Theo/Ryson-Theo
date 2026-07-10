@@ -226,7 +226,7 @@ I build scalable APIs and production-ready systems with MERN/MEAN stack, focusin
   <a href="mailto:rysontheo@proton.me">Email</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  
   <a href="https://www.linkedin.com/in/ribin-k-roy/">LinkedIn</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
   <a href="https://github.com/Ryson-Theo">GitHub</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-  <a href="https://www.self.so/ribin-k-roy">Portfolio</a>
+  <a href="https://linktr.ee/ryson_theo">Portfolio</a>
 </div>
 
 <div align="center">
