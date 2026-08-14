@@ -70,7 +70,6 @@
        ===================================================== */
 
     .ascii {
-
       font-family:
         "SouthHeaven",
         "Courier New",
@@ -79,17 +78,14 @@
         monospace;
 
       font-size: 5.7px;
-
       font-weight: 700;
 
       fill: #58a6ff;
 
       white-space: pre;
-
       letter-spacing: 0;
 
       textLength: 1140px;
-
       lengthAdjust: spacingAndGlyphs;
 
       transform-origin: center;
@@ -97,7 +93,6 @@
       animation:
         asciiGlow 3.5s ease-in-out infinite,
         asciiFloat 6s ease-in-out infinite;
-
     }
 
     /* =====================================================
@@ -105,7 +100,6 @@
        ===================================================== */
 
     .description {
-
       font-family:
         "Fira Code",
         "JetBrains Mono",
@@ -115,11 +109,8 @@
         monospace;
 
       font-size: 12px;
-
       fill: #8b949e;
-
       letter-spacing: 0.15px;
-
     }
 
     .description-accent {
@@ -131,12 +122,10 @@
        ===================================================== */
 
     .cursor {
-
       fill: #58a6ff;
 
       animation:
         cursorBlink 1s steps(1, end) infinite;
-
     }
 
     /* =====================================================
@@ -146,22 +135,22 @@
     @keyframes asciiGlow {
 
       0% {
-        opacity: 0.82;
+        opacity: 0.78;
         filter: drop-shadow(0 0 0px #58a6ff);
       }
 
       45% {
         opacity: 1;
-        filter: drop-shadow(0 0 3px #58a6ff);
+        filter: drop-shadow(0 0 4px #58a6ff);
       }
 
       55% {
-        opacity: 0.94;
+        opacity: 0.92;
         filter: drop-shadow(0 0 1px #58a6ff);
       }
 
       100% {
-        opacity: 0.82;
+        opacity: 0.78;
         filter: drop-shadow(0 0 0px #58a6ff);
       }
 
@@ -175,7 +164,7 @@
       }
 
       50% {
-        transform: translateY(-0.8px);
+        transform: translateY(-1px);
       }
 
     }
@@ -199,16 +188,12 @@
     }
 
     /* =====================================================
-       SUBTLE SCREEN FLICKER
+       SUBTLE CRT FLICKER
        ===================================================== */
 
     .screen-flicker {
-
       opacity: 0;
-
-      animation:
-        screenFlicker 7s infinite;
-
+      animation: screenFlicker 7s infinite;
     }
 
     @keyframes screenFlicker {
@@ -304,7 +289,7 @@
 
 
   <!-- =====================================================
-       COMMAND LINE
+       WHOAMI COMMAND
        ===================================================== -->
 
   <g transform="translate(28 64)">
@@ -331,12 +316,21 @@
 
 
   <!-- =====================================================
+       EXTRA SPACE ABOVE ASCII NAME
+       ===================================================== -->
+
+  <!--
+       The name intentionally starts lower than the
+       command line to create a terminal-like output gap.
+  -->
+
+
+  <!-- =====================================================
        ASCII NAME
-       EXACT USER-PROVIDED ART
        ===================================================== -->
 
   <g
-    transform="translate(28 82)"
+    transform="translate(28 94)"
     xml:space="preserve"
   >
 
@@ -399,51 +393,30 @@
 
   <!-- =====================================================
        ONE-LINE PROFILE DESCRIPTION
-       DIRECTLY BELOW NAME
+       DIRECTLY BELOW ASCII NAME
        ===================================================== -->
 
   <text
     class="description"
     x="600"
-    y="181"
+    y="193"
     text-anchor="middle"
   >
-    <tspan class="description-accent">
-      AI/ML Integration
-    </tspan>
-
-    <tspan fill="#484f58">
-      ·
-    </tspan>
-
-    <tspan class="description-accent">
-      Scalable APIs
-    </tspan>
-
-    <tspan fill="#484f58">
-      ·
-    </tspan>
-
-    <tspan class="description-accent">
-      Intelligent Systems
-    </tspan>
-
-    <tspan fill="#484f58">
-      — 
-    </tspan>
-
-    <tspan>
-      Specializing in AI/ML integration, scalable APIs, and intelligent systems across stacks.
-    </tspan>
-
+    <tspan class="description-accent">AI/ML Integration</tspan>
+    <tspan fill="#484f58"> · </tspan>
+    <tspan class="description-accent">Scalable APIs</tspan>
+    <tspan fill="#484f58"> · </tspan>
+    <tspan class="description-accent">Intelligent Systems</tspan>
+    <tspan fill="#484f58"> — </tspan>
+    <tspan>Specializing in AI/ML integration, scalable APIs, and intelligent systems across stacks.</tspan>
   </text>
 
 
   <!-- =====================================================
-       TERMINAL ACTIVE LINE
+       EMPTY TERMINAL SHELL
        ===================================================== -->
 
-  <g transform="translate(28 224)">
+  <g transform="translate(28 252)">
 
     <text
       class="prompt"
@@ -457,15 +430,10 @@
       y="0"
     >:~ $</text>
 
-    <text
-      class="command"
-      x="215"
-      y="0"
-    >./connect</text>
-
+    <!-- Empty command line -->
     <rect
       class="cursor"
-      x="305"
+      x="215"
       y="-13"
       width="8"
       height="16"
@@ -476,33 +444,7 @@
 
 
   <!-- =====================================================
-       STATUS
-       ===================================================== -->
-
-  <g transform="translate(28 252)">
-
-    <circle
-      cx="5"
-      cy="-4"
-      r="3"
-      fill="#3fb950"
-    />
-
-    <text
-      x="16"
-      y="0"
-      font-family="Fira Code, JetBrains Mono, monospace"
-      font-size="11"
-      fill="#484f58"
-    >
-      system online · building intelligent systems
-    </text>
-
-  </g>
-
-
-  <!-- =====================================================
-       SUBTLE CRT FLICKER
+       SUBTLE CRT SCREEN FLICKER
        ===================================================== -->
 
   <rect
