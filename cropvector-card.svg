@@ -49,12 +49,12 @@
   <text x="508" y="45" fill="#3fb950" font-family="sans-serif, Arial" font-weight="bold" font-size="12">Featured</text>
 
   <!-- DESCRIPTION -->
-  <text x="120" y="88" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">Agri-Tech decision engine unifying weather,</text>
-  <text x="120" y="114" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">NDVI satellite data &amp; market price analytics.</text>
+  <text x="120" y="88" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="18">Agri-Tech decision engine unifying weather,</text>
+  <text x="120" y="114" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="18">NDVI satellite data &amp; market price analytics.</text>
 
   <!-- FOOTER TECH STACK -->
   <circle cx="125" cy="160" r="5.5" fill="#61dafb" />
-  <text x="138" y="165" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="14">React / Node.js</text>
+  <text x="138" y="165" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">React / Node.js</text>
   
   <path d="M 275 156 l 1.2 2.5 2.8 .4 -2 2 .5 2.8 -2.5 -1.3 -2.5 1.3 .5 -2.8 -2 -2 2.8 -.4 z" fill="none" stroke="#8b949e" stroke-width="1.2" />
   <text x="285" y="165" fill="#8b949e" font-family="sans-serif, Arial" font-weight="bold" font-size="14">MERN</text>
