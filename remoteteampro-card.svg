@@ -1,85 +1,89 @@
 <svg fill="none" viewBox="0 0 600 200" width="600" height="200" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Background Card (No Outline) -->
+  <!-- Background Card (No Outer Outline) -->
   <rect width="600" height="200" rx="16" fill="#0d1117" />
 
-  <!-- LEFT ICON CONTAINER: Animated Remote Workforce Hub -->
+  <!-- LEFT ICON CONTAINER: Moving Tractor with Plower -->
   <rect x="28" y="28" width="72" height="72" rx="16" fill="#161b22" stroke="#30363d" stroke-width="1" />
-  <g transform="translate(2, 2) scale(1.35)">
-    <!-- Central Hub Core -->
-    <circle cx="46" cy="46" r="6" fill="#388bfd">
-      <animate attributeName="r" values="5.2; 6.8; 5.2" dur="2s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.75; 1; 0.75" dur="2s" repeatCount="indefinite" />
-    </circle>
-    
-    <!-- Rotating Team Connection Nodes -->
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0 46 46" to="360 46 46" dur="6s" repeatCount="indefinite" />
-      <line x1="46" y1="46" x2="33" y2="35" stroke="#777bb4" stroke-width="1" opacity="0.6" />
-      <line x1="46" y1="46" x2="59" y2="35" stroke="#777bb4" stroke-width="1" opacity="0.6" />
-      <line x1="46" y1="46" x2="46" y2="60" stroke="#777bb4" stroke-width="1" opacity="0.6" />
+  <g transform="translate(25, 27) scale(1.35)">
+    <!-- Soil Horizon & Tilled Furrows -->
+    <line x1="4" y1="45" x2="48" y2="45" stroke="#30363d" stroke-width="2" stroke-linecap="round" />
+    <line x1="6" y1="48" x2="46" y2="48" stroke="#238636" stroke-width="1.5" stroke-dasharray="3 2" />
 
-      <circle cx="33" cy="35" r="3.5" fill="#777bb4" />
-      <circle cx="59" cy="35" r="3.5" fill="#777bb4" />
-      <circle cx="46" cy="60" r="3.5" fill="#3fb950" />
+    <!-- Moving Tractor & Plow Assembly -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="-4,0; 4,0; -4,0" dur="3.2s" repeatCount="indefinite" />
+      
+      <!-- Plower Attachment -->
+      <path d="M 12 38 L 4 42" stroke="#8b949e" stroke-width="1.2" />
+      <path d="M 4 42 L 2 46 M 6 42 L 4 46 M 8 42 L 6 46" stroke="#e3b341" stroke-width="1.2" stroke-linecap="round" />
+
+      <!-- Main Tractor Body & Cab -->
+      <path d="M 14 38 V 26 H 25 V 32 H 37 V 38 Z" fill="#238636" stroke="#3fb950" stroke-width="1" />
+      <line x1="12" y1="26" x2="27" y2="26" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" />
+      <rect x="17" y="28" width="6" height="5" rx="1" fill="#58a6ff" opacity="0.85" />
+
+      <!-- Exhaust Pipe & Animated Smoke -->
+      <line x1="33" y1="32" x2="33" y2="24" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="33" cy="22" r="2" fill="#8b949e">
+        <animate attributeName="opacity" values="0.8; 0; 0.8" dur="1.6s" repeatCount="indefinite" />
+        <animate attributeName="r" values="1.5; 3.5; 1.5" dur="1.6s" repeatCount="indefinite" />
+      </circle>
+
+      <!-- Wheels -->
+      <circle cx="18" cy="39" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="1.5" />
+      <circle cx="18" cy="39" r="3.5" fill="#238636" stroke="#58a6ff" stroke-width="1" />
+      <circle cx="18" cy="39" r="1.2" fill="#ffffff" />
+
+      <circle cx="34" cy="41" r="4.5" fill="#0d1117" stroke="#3fb950" stroke-width="1.2" />
+      <circle cx="34" cy="41" r="2" fill="#238636" />
+      <circle cx="34" cy="41" r="0.8" fill="#ffffff" />
     </g>
   </g>
 
   <!-- TITLE & BADGE -->
-  <text x="120" y="52" fill="#79c0ff" font-family="sans-serif, Arial" font-weight="bold" font-size="24">RemoteTeamPro</text>
+  <text x="120" y="52" fill="#79c0ff" font-family="sans-serif, Arial" font-weight="bold" font-size="24">CropVector</text>
   
-  <rect x="495" y="28" width="78" height="26" rx="13" fill="#1f6feb" fill-opacity="0.2" stroke="#388bfd" stroke-width="1" />
-  <text x="508" y="45" fill="#58a6ff" font-family="sans-serif, Arial" font-weight="bold" font-size="12">Featured</text>
+  <rect x="495" y="28" width="78" height="26" rx="13" fill="#238636" fill-opacity="0.2" stroke="#2ea043" stroke-width="1" />
+  <text x="508" y="45" fill="#3fb950" font-family="sans-serif, Arial" font-weight="bold" font-size="12">Featured</text>
 
   <!-- DESCRIPTION -->
-  <text x="120" y="88" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">Workforce management platform with RBAC,</text>
-  <text x="120" y="114" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">automated attendance &amp; client reporting portals.</text>
+  <text x="120" y="88" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">Agri-Tech decision engine unifying weather,</text>
+  <text x="120" y="114" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">NDVI satellite data &amp; market price analytics.</text>
 
   <!-- FOOTER TECH STACK -->
-  <circle cx="125" cy="160" r="5.5" fill="#777bb4" />
-  <text x="138" y="165" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="14">PHP / MySQL</text>
+  <circle cx="125" cy="160" r="5.5" fill="#61dafb" />
+  <text x="138" y="165" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="14">React / Node.js</text>
   
   <path d="M 275 156 l 1.2 2.5 2.8 .4 -2 2 .5 2.8 -2.5 -1.3 -2.5 1.3 .5 -2.8 -2 -2 2.8 -.4 z" fill="none" stroke="#8b949e" stroke-width="1.2" />
-  <text x="285" y="165" fill="#8b949e" font-family="sans-serif, Arial" font-weight="bold" font-size="14">LAMP</text>
+  <text x="285" y="165" fill="#8b949e" font-family="sans-serif, Arial" font-weight="bold" font-size="14">MERN</text>
 
-  <!-- RIGHT VISUAL: System Metrics & Team Dashboard -->
+  <!-- RIGHT VISUAL: Sun & Growing Field Crops -->
   <g transform="translate(100, 22) scale(1.22)">
-    <!-- Server Status Indicator -->
-    <circle cx="382" cy="60" r="4" fill="#3fb950">
-      <animate attributeName="r" values="3.2; 4.8; 3.2" dur="1.8s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.5; 1; 0.5" dur="1.8s" repeatCount="indefinite" />
+    <circle cx="352" cy="60" r="5" fill="#e3b341">
+      <animate attributeName="r" values="4; 6; 4" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6; 1; 0.6" dur="2.5s" repeatCount="indefinite" />
     </circle>
-    <circle cx="382" cy="60" r="8" fill="none" stroke="#3fb950" stroke-width="1" stroke-dasharray="2 2" opacity="0.4" />
+    <circle cx="352" cy="60" r="10" fill="none" stroke="#e3b341" stroke-width="1" stroke-dasharray="2 2" opacity="0.4" />
 
-    <!-- Dashboard Baseline Horizon -->
-    <line x1="312" y1="118" x2="392" y2="118" stroke="#30363d" stroke-width="1.5" />
+    <line x1="312" y1="116" x2="392" y2="116" stroke="#30363d" stroke-width="1.5" />
+    <path d="M 312 119 Q 352 122 392 119" stroke="#238636" stroke-linecap="round" stroke-dasharray="3 2" opacity="0.6" fill="none" />
 
-    <!-- Animated Workforce Activity Waveform -->
-    <rect x="320" y="98" width="4" height="20" rx="2" fill="#388bfd">
-      <animate attributeName="height" values="6; 26; 6" dur="1.2s" repeatCount="indefinite" />
-      <animate attributeName="y" values="112; 92; 112" dur="1.2s" repeatCount="indefinite" />
-    </rect>
-    <rect x="328" y="92" width="4" height="26" rx="2" fill="#58a6ff">
-      <animate attributeName="height" values="8; 28; 8" dur="0.9s" repeatCount="indefinite" />
-      <animate attributeName="y" values="110; 90; 110" dur="0.9s" repeatCount="indefinite" />
-    </rect>
-    <rect x="336" y="103" width="4" height="15" rx="2" fill="#1f6feb">
-      <animate attributeName="height" values="5; 22; 5" dur="1.5s" repeatCount="indefinite" />
-      <animate attributeName="y" values="113; 96; 113" dur="1.5s" repeatCount="indefinite" />
-    </rect>
-    <rect x="344" y="88" width="4" height="30" rx="2" fill="#388bfd">
-      <animate attributeName="height" values="10; 30; 10" dur="1.1s" repeatCount="indefinite" />
-      <animate attributeName="y" values="108; 88; 108" dur="1.1s" repeatCount="indefinite" />
-    </rect>
-    <rect x="352" y="100" width="4" height="18" rx="2" fill="#777bb4">
-      <animate attributeName="height" values="6; 24; 6" dur="1.4s" repeatCount="indefinite" />
-      <animate attributeName="y" values="112; 94; 112" dur="1.4s" repeatCount="indefinite" />
-    </rect>
+    <!-- Crop Stage 1 -->
+    <g>
+      <path d="M 330 116 V 105 M 330 110 Q 325 106 324 109 M 330 108 Q 335 104 336 107" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    </g>
 
-    <!-- Terminal Status Outline (Mini Panel) -->
-    <rect x="362" y="90" width="26" height="24" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <circle cx="370" cy="97" r="1.5" fill="#3fb950" />
-    <line x1="375" y1="97" x2="382" y2="97" stroke="#8b949e" stroke-width="1" stroke-linecap="round" />
-    <line x1="368" y1="104" x2="382" y2="104" stroke="#58a6ff" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 1" />
+    <!-- Crop Stage 2 -->
+    <g>
+      <path d="M 352 116 V 97 M 352 106 Q 345 101 344 105 M 352 102 Q 359 97 360 101 M 352 98 Q 346 93 345 96" stroke="#2ea043" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <circle cx="352" cy="95" r="2" fill="#e3b341" />
+    </g>
+
+    <!-- Crop Stage 3 -->
+    <g>
+      <path d="M 374 116 V 99 M 374 108 Q 368 104 367 107 M 374 104 Q 380 100 381 103" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <path d="M 374 99 L 372 95 M 374 97 L 376 93 M 374 95 L 371 91 M 374 93 L 375 89 M 374 89 L 374 86" stroke="#e3b341" stroke-width="1.5" stroke-linecap="round" />
+    </g>
   </g>
 </svg>
