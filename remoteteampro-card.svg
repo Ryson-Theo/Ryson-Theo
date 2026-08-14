@@ -1,15 +1,15 @@
 <svg fill="none" viewBox="0 0 420 150" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <style>
-    /* Global Styles */
-    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 12px; }
-    .title { font: bold 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; fill: #58a6ff; }
-    .desc { font: 12px/1.5 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; fill: #8b949e; }
-    .badge-bg { fill: #1f6feb; fill-opacity: 0.15; stroke: #388bfd; stroke-width: 1px; rx: 10px; }
-    .badge-text { font: bold 10px 'Segoe UI', sans-serif; fill: #58a6ff; }
-    .tech-lang { font: 11px 'Segoe UI', sans-serif; fill: #c9d1d9; }
-    .stat-text { font: bold 11px 'Segoe UI', sans-serif; fill: #8b949e; }
-    
-    /* Icon Animations */
+    <![CDATA[
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }
+    .title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 16px; fill: #58a6ff; }
+    .desc { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 12px; fill: #8b949e; }
+    .badge-bg { fill: #1f6feb; fill-opacity: 0.15; stroke: #388bfd; stroke-width: 1px; }
+    .badge-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 10px; fill: #58a6ff; }
+    .tech-lang { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 11px; fill: #c9d1d9; }
+    .stat-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 11px; fill: #8b949e; }
+
+    /* Left Icon Animations */
     .node-rotate {
       animation: rotate-nodes 6s linear infinite;
       transform-origin: 46px 46px;
@@ -18,11 +18,17 @@
       animation: pulse-core 2s ease-in-out infinite alternate;
       transform-origin: 46px 46px;
     }
-    .sparkline {
-      stroke: #388bfd;
-      stroke-width: 2;
-      stroke-dasharray: 200;
-      animation: dash 3.5s ease-in-out infinite alternate;
+
+    /* Right Visual Animations (Positioned Lower) */
+    .bar1 { animation: equalize 1.2s ease-in-out infinite alternate; }
+    .bar2 { animation: equalize 0.9s ease-in-out infinite alternate 0.2s; }
+    .bar3 { animation: equalize 1.5s ease-in-out infinite alternate 0.4s; }
+    .bar4 { animation: equalize 1.1s ease-in-out infinite alternate 0.1s; }
+    .bar5 { animation: equalize 1.4s ease-in-out infinite alternate 0.3s; }
+
+    .pulse-node {
+      animation: status-ping 1.8s ease-in-out infinite alternate;
+      transform-origin: 382px 60px;
     }
 
     @keyframes rotate-nodes {
@@ -30,19 +36,24 @@
       100% { transform: rotate(360deg); }
     }
     @keyframes pulse-core {
-      0% { transform: scale(0.95); opacity: 0.8; }
+      0% { transform: scale(0.9); opacity: 0.8; }
       100% { transform: scale(1.1); opacity: 1; }
     }
-    @keyframes dash {
-      from { stroke-dashoffset: 200; }
-      to { stroke-dashoffset: 0; }
+    @keyframes equalize {
+      0% { height: 6px; y: 112px; }
+      100% { height: 26px; y: 92px; }
     }
+    @keyframes status-ping {
+      0% { transform: scale(0.8); opacity: 0.5; }
+      100% { transform: scale(1.2); opacity: 1; }
+    }
+    ]]>
   </style>
 
-  <!-- Card Background -->
-  <rect width="418" height="148" x="1" y="1" class="bg" />
+  <!-- Card Frame -->
+  <rect width="418" height="148" x="1" y="1" rx="12" class="bg" />
 
-  <!-- Animated Icon Container (Workforce Network Hub) -->
+  <!-- LEFT ICON CONTAINER: Animated Remote Workforce Hub -->
   <rect x="20" y="20" width="52" height="52" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1" />
   <g>
     <!-- Central Hub Core -->
@@ -50,38 +61,53 @@
     
     <!-- Rotating Team Connection Nodes -->
     <g class="node-rotate">
-      <!-- Connection Lines -->
       <line x1="46" y1="46" x2="33" y2="35" stroke="#777bb4" stroke-width="1" opacity="0.6" />
       <line x1="46" y1="46" x2="59" y2="35" stroke="#777bb4" stroke-width="1" opacity="0.6" />
       <line x1="46" y1="46" x2="46" y2="60" stroke="#777bb4" stroke-width="1" opacity="0.6" />
 
-      <!-- Nodes -->
       <circle cx="33" cy="35" r="3.5" fill="#777bb4" />
       <circle cx="59" cy="35" r="3.5" fill="#777bb4" />
       <circle cx="46" cy="60" r="3.5" fill="#3fb950" />
     </g>
   </g>
 
-  <!-- Title & Featured Badge -->
+  <!-- Title & Badge -->
   <text x="86" y="36" class="title">RemoteTeamPro</text>
-  <rect x="338" y="20" width="62" height="20" class="badge-bg" />
+  <rect x="338" y="20" width="62" height="20" rx="10" class="badge-bg" />
   <text x="349" y="34" class="badge-text">Featured</text>
 
-  <!-- Description with Proper Spacing -->
+  <!-- Description -->
   <text x="86" y="58" class="desc">Workforce management platform with RBAC,</text>
   <text x="86" y="76" class="desc">automated attendance &amp; client reporting portals.</text>
 
-  <!-- Footer Info & Tech Stack -->
+  <!-- Footer Info -->
   <g transform="translate(86, 118)">
-    <!-- Tech Language -->
     <circle cx="4" cy="-4" r="4" fill="#777bb4" />
     <text x="14" y="0" class="tech-lang">PHP / MySQL</text>
-
-    <!-- Stack Tag -->
     <path d="M110 -8 l1.2 2.5 2.8.4-2 2 .5 2.8-2.5-1.3-2.5 1.3.5-2.8-2-2 2.8-.4z" fill="none" stroke="#8b949e" stroke-width="1.2" />
     <text x="118" y="0" class="stat-text">LAMP</text>
   </g>
 
-  <!-- Animated Sparkline Graph -->
-  <path d="M285 95 Q300 105, 315 85 T345 100 T375 75 T400 60" fill="none" class="sparkline" />
+  <!-- RIGHT VISUAL: System Metrics & Team Dashboard (Lowered Clear of Featured Badge) -->
+  <g>
+    <!-- Server Status Indicator -->
+    <circle cx="382" cy="60" r="4" fill="#3fb950" class="pulse-node" />
+    <circle cx="382" cy="60" r="8" fill="none" stroke="#3fb950" stroke-width="1" stroke-dasharray="2 2" opacity="0.4" />
+
+    <!-- Dashboard Baseline Horizon -->
+    <line x1="312" y1="118" x2="392" y2="118" stroke="#30363d" stroke-width="1.5" />
+
+    <!-- Animated Workforce Activity Waveform -->
+    <rect x="320" y="98" width="4" height="20" rx="2" fill="#388bfd" class="bar1" />
+    <rect x="328" y="92" width="4" height="26" rx="2" fill="#58a6ff" class="bar2" />
+    <rect x="336" y="103" width="4" height="15" rx="2" fill="#1f6feb" class="bar3" />
+    <rect x="344" y="88" width="4" height="30" rx="2" fill="#388bfd" class="bar4" />
+    <rect x="352" y="100" width="4" height="18" rx="2" fill="#777bb4" class="bar5" />
+
+    <!-- Terminal Status Outline (Mini Panel) -->
+    <rect x="362" y="90" width="26" height="24" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="370" cy="97" r="1.5" fill="#3fb950" />
+    <line x1="375" y1="97" x2="382" y2="97" stroke="#8b949e" stroke-width="1" stroke-linecap="round" />
+    <line x1="368" y1="104" x2="382" y2="104" stroke="#58a6ff" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 1" />
+  </g>
 </svg>
