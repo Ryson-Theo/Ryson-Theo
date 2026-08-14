@@ -1,5 +1,13 @@
 <div align="center">
-  <img src="./assets/header-banner.jpg" alt="Header Banner" width="100%" height="80%" />
+  <div align="center">
+
+<img
+  src="./assets/ryson-theo-terminal.svg"
+  width="100%"
+  alt="Ryson-Theo GitHub terminal banner"
+/>
+
+</div>
   
   # RIBIN K ROY
 
