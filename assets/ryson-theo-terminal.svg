@@ -1,0 +1,366 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="330"
+  viewBox="0 0 1200 330"
+  fill="none"
+  xml:space="preserve"
+>
+  <style>
+    .bg {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 1.5;
+    }
+
+    .topbar {
+      fill: #161b22;
+    }
+
+    .prompt {
+      font-family:
+        "SouthHeaven",
+        "Fira Code",
+        "JetBrains Mono",
+        "Courier New",
+        Consolas,
+        monospace;
+
+      font-size: 16px;
+      font-weight: 700;
+      fill: #3fb950;
+    }
+
+    .path {
+      font-family:
+        "SouthHeaven",
+        "Fira Code",
+        "JetBrains Mono",
+        "Courier New",
+        Consolas,
+        monospace;
+
+      font-size: 16px;
+      fill: #8b949e;
+    }
+
+    .command {
+      font-family:
+        "SouthHeaven",
+        "Fira Code",
+        "JetBrains Mono",
+        "Courier New",
+        Consolas,
+        monospace;
+
+      font-size: 16px;
+      font-weight: 700;
+      fill: #c9d1d9;
+    }
+
+    .output {
+      font-family:
+        "Fira Code",
+        "JetBrains Mono",
+        "Courier New",
+        Consolas,
+        monospace;
+
+      font-size: 14px;
+      fill: #58a6ff;
+    }
+
+    /*
+      IMPORTANT:
+      Fixed-width ASCII rendering.
+      The artwork is forced into exactly 1140 SVG units.
+    */
+
+    .ascii {
+      font-family:
+        "Courier New",
+        Consolas,
+        "Liberation Mono",
+        monospace;
+
+      font-size: 5.7px;
+      font-weight: 700;
+
+      fill: #58a6ff;
+
+      white-space: pre;
+      letter-spacing: 0;
+
+      textLength: 1140px;
+      lengthAdjust: spacingAndGlyphs;
+    }
+
+    .tagline {
+      font-family:
+        "Fira Code",
+        "JetBrains Mono",
+        "Courier New",
+        Consolas,
+        monospace;
+
+      font-size: 13px;
+      fill: #8b949e;
+    }
+
+    .cursor {
+      fill: #58a6ff;
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+
+  <!-- =====================================================
+       TERMINAL WINDOW
+       ===================================================== -->
+
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="328"
+    rx="12"
+    class="bg"
+  />
+
+
+  <!-- =====================================================
+       TERMINAL TOP BAR
+       ===================================================== -->
+
+  <rect
+    x="2"
+    y="2"
+    width="1196"
+    height="38"
+    rx="11"
+    class="topbar"
+  />
+
+
+  <!-- =====================================================
+       MAC TERMINAL BUTTONS
+       ===================================================== -->
+
+  <circle
+    cx="25"
+    cy="21"
+    r="6"
+    fill="#ff5f56"
+  />
+
+  <circle
+    cx="45"
+    cy="21"
+    r="6"
+    fill="#ffbd2e"
+  />
+
+  <circle
+    cx="65"
+    cy="21"
+    r="6"
+    fill="#27c93f"
+  />
+
+
+  <!-- TERMINAL TITLE -->
+
+  <text
+    x="600"
+    y="26"
+    text-anchor="middle"
+    font-family="Fira Code, JetBrains Mono, monospace"
+    font-size="12"
+    fill="#8b949e"
+  >
+    Ryson-Theo — terminal
+  </text>
+
+
+  <!-- =====================================================
+       COMMAND 1
+       ===================================================== -->
+
+  <g transform="translate(28 67)">
+
+    <text
+      class="prompt"
+      x="0"
+      y="0"
+    >Ryson-Theo@github</text>
+
+    <text
+      class="path"
+      x="166"
+      y="0"
+    >:~ $</text>
+
+    <text
+      class="command"
+      x="215"
+      y="0"
+    >whoami</text>
+
+  </g>
+
+
+  <!-- =====================================================
+       ASCII NAME
+       ===================================================== -->
+
+  <g
+    transform="translate(28 83)"
+    xml:space="preserve"
+  >
+
+    <text
+      class="ascii"
+      x="0"
+      y="0"
+    >▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀      ▀ ▀▀ ┐ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀      ▀ ▀▀ ┐ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ┐         ▀ ▀▀ ┐         ▀ ▀▀ ┐      ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀         ▀ ▀▀ ▀▀ ▀▀ ▀▀  ┐   ▀ ▀▀ ┐        ▀▀ ▀ ┐</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="10"
+    >▄ █▄ ▀▀ ▀▀ ▀▀ █▄ █▄ ┐ █ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄   █ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄ ┐      ▀ █▀░│         ▀ █▀░│      ▄ █▄ ▀▀ ▀▀ ▀▀ █▄ █▄ ┐ ▄ █▀ █▀ ▀▀ ▀▀ █▀ █▄ ┐ ▀ █▀░│        █▀ ▀░│</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="20"
+    >▄ ▄▄░┌───────  ▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░└───────  ▄ ▄▄ ┐ ▄ ▄▄░│ ▄ ▄▄░┌──────── ▄ ▄▄░│      ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌───────  ▄ ▄▄░│ ▄ ▄▄ ░┌──────  ▄ ▄▄░│ ▄ ▄▄ ▄        ▄▄ ▄░│</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="30"
+    >▀ ▀▀ └        ▀▀ ▀▀░│ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌┘ ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀ └      ▀ ▀▀ ▀ ┌┘      ▀ ▀▀ └        ▀▀ ▀▀░│ ▀ ▀▀ ░│        ▀ ▀▀░│   ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░│</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="40"
+    >▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄└┐ ▀ █▀░│ ▀ █▀░│         ▀ █▀░│      ▀ █▀ █▀ █▀ █▀ █▀ ▀░│       ▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀ ░│        ▀ █▀░│  └ ▀ ▀▀ ▀▀ ▀▀ █▀ ▀░│</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="50"
+    >▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄░│ ▄ ▄▄░└─────── ▄▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌─────── ▄▄ ▄ └┐      ▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄ ▄ ┐      ▄▄ ▄▄░│     └────── ▄ ▄▄ ▄░│</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="60"
+    >▀ ▀ ░│      ▀ ▀▀ ▀░└┐ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌┘ ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀ ░│      ▀ ▀▀ ▀░└┐   ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ░┌─┘ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀ ░ ░│</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="70"
+    >▀ ▀▀░│        ▀▀ ▀▀░│ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀░┌─┘  ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│        ▀▀ ▀▀░│  └ ▀ ▀▀ ▀▀ ▀▀ ▀░┌─┘   ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌──┘</text>
+
+    <text
+      class="ascii"
+      x="0"
+      y="80"
+    >  └──┘          └───┘  └───┘   └──────────────┘     └───┘   └──┘           └──┘        └──┘          └───┘        └──┘          └───┘     └───────────┘       └─────────────┘</text>
+
+  </g>
+
+
+  <!-- =====================================================
+       DESCRIPTION COMMAND
+       ===================================================== -->
+
+  <g transform="translate(28 185)">
+
+    <text
+      class="prompt"
+      x="0"
+      y="0"
+    >Ryson-Theo@github</text>
+
+    <text
+      class="path"
+      x="166"
+      y="0"
+    >:~ $</text>
+
+    <text
+      class="command"
+      x="215"
+      y="0"
+    >cat profile.txt</text>
+
+  </g>
+
+
+  <!-- =====================================================
+       PROFILE DESCRIPTION
+       ===================================================== -->
+
+  <g transform="translate(28 210)">
+
+    <text
+      class="output"
+      x="0"
+      y="0"
+    >&gt; Specializing in AI/ML integration, scalable APIs,</text>
+
+    <text
+      class="output"
+      x="0"
+      y="21"
+    >&gt; and intelligent systems across stacks.</text>
+
+  </g>
+
+
+  <!-- =====================================================
+       ACTIVE TERMINAL
+       ===================================================== -->
+
+  <g transform="translate(28 282)">
+
+    <text
+      class="prompt"
+      x="0"
+      y="0"
+    >Ryson-Theo@github</text>
+
+    <text
+      class="path"
+      x="166"
+      y="0"
+    >:~ $</text>
+
+    <rect
+      x="215"
+      y="-14"
+      width="9"
+      height="17"
+      rx="1"
+      class="cursor"
+    />
+
+  </g>
+
+</svg>
