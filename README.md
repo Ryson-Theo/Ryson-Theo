@@ -133,16 +133,17 @@ I build scalable APIs and production-ready systems with MERN/MEAN stack, focusin
     *   Developing new prototypes to integrate ML inference into web workflows.
     *   Experimenting with containerized deployment for reproducible AI environments.
 ---
+
 ## Featured Projects
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Ryson-Theo/CropVector" target="_blank">
         <img src="./cropvector-card.svg" alt="CropVector Project Card" width="100%" />
       </a>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Ryson-Theo/RemoteTeamPro" target="_blank">
         <img src="./remoteteampro-card.svg" alt="RemoteTeamPro Project Card" width="100%" />
       </a>
