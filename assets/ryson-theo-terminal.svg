@@ -1,127 +1,235 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="330"
-  viewBox="0 0 1200 330"
+  height="300"
+  viewBox="0 0 1200 300"
   fill="none"
   xml:space="preserve"
 >
   <style>
-    .bg {
-      fill: #0d1117;
-      stroke: #30363d;
+
+    /* =====================================================
+       TERMINAL
+       ===================================================== */
+
+    .terminal {
+      fill: #080b10;
+      stroke: #21262d;
       stroke-width: 1.5;
     }
 
     .topbar {
-      fill: #161b22;
+      fill: #0b0f14;
     }
+
+    /* =====================================================
+       TERMINAL TEXT
+       ===================================================== */
 
     .prompt {
       font-family:
-        "SouthHeaven",
         "Fira Code",
         "JetBrains Mono",
-        "Courier New",
+        "SFMono-Regular",
         Consolas,
+        "Liberation Mono",
         monospace;
 
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 700;
       fill: #3fb950;
     }
 
     .path {
       font-family:
-        "SouthHeaven",
         "Fira Code",
         "JetBrains Mono",
-        "Courier New",
+        "SFMono-Regular",
         Consolas,
         monospace;
 
-      font-size: 16px;
+      font-size: 14px;
       fill: #8b949e;
     }
 
     .command {
       font-family:
-        "SouthHeaven",
         "Fira Code",
         "JetBrains Mono",
-        "Courier New",
-        Consolas,
-        monospace;
-
-      font-size: 16px;
-      font-weight: 700;
-      fill: #c9d1d9;
-    }
-
-    .output {
-      font-family:
-        "Fira Code",
-        "JetBrains Mono",
-        "Courier New",
+        "SFMono-Regular",
         Consolas,
         monospace;
 
       font-size: 14px;
-      fill: #58a6ff;
+      font-weight: 700;
+      fill: #c9d1d9;
     }
 
-    /*
-      IMPORTANT:
-      Fixed-width ASCII rendering.
-      The artwork is forced into exactly 1140 SVG units.
-    */
+    /* =====================================================
+       ASCII NAME
+       ===================================================== */
 
     .ascii {
+
       font-family:
+        "SouthHeaven",
         "Courier New",
-        Consolas,
         "Liberation Mono",
+        Consolas,
         monospace;
 
       font-size: 5.7px;
+
       font-weight: 700;
 
       fill: #58a6ff;
 
       white-space: pre;
+
       letter-spacing: 0;
 
       textLength: 1140px;
+
       lengthAdjust: spacingAndGlyphs;
+
+      transform-origin: center;
+
+      animation:
+        asciiGlow 3.5s ease-in-out infinite,
+        asciiFloat 6s ease-in-out infinite;
+
     }
 
-    .tagline {
+    /* =====================================================
+       DESCRIPTION
+       ===================================================== */
+
+    .description {
+
       font-family:
         "Fira Code",
         "JetBrains Mono",
-        "Courier New",
+        "SFMono-Regular",
         Consolas,
+        "Liberation Mono",
         monospace;
 
-      font-size: 13px;
+      font-size: 12px;
+
       fill: #8b949e;
+
+      letter-spacing: 0.15px;
+
     }
+
+    .description-accent {
+      fill: #58a6ff;
+    }
+
+    /* =====================================================
+       CURSOR
+       ===================================================== */
 
     .cursor {
+
       fill: #58a6ff;
-      animation: blink 1s step-end infinite;
+
+      animation:
+        cursorBlink 1s steps(1, end) infinite;
+
     }
 
-    @keyframes blink {
+    /* =====================================================
+       ASCII ANIMATION
+       ===================================================== */
+
+    @keyframes asciiGlow {
+
+      0% {
+        opacity: 0.82;
+        filter: drop-shadow(0 0 0px #58a6ff);
+      }
+
+      45% {
+        opacity: 1;
+        filter: drop-shadow(0 0 3px #58a6ff);
+      }
+
+      55% {
+        opacity: 0.94;
+        filter: drop-shadow(0 0 1px #58a6ff);
+      }
+
+      100% {
+        opacity: 0.82;
+        filter: drop-shadow(0 0 0px #58a6ff);
+      }
+
+    }
+
+    @keyframes asciiFloat {
+
       0%,
       100% {
-        opacity: 1;
+        transform: translateY(0px);
       }
 
       50% {
+        transform: translateY(-0.8px);
+      }
+
+    }
+
+    /* =====================================================
+       CURSOR BLINK
+       ===================================================== */
+
+    @keyframes cursorBlink {
+
+      0%,
+      45% {
+        opacity: 1;
+      }
+
+      46%,
+      100% {
         opacity: 0;
       }
+
     }
+
+    /* =====================================================
+       SUBTLE SCREEN FLICKER
+       ===================================================== */
+
+    .screen-flicker {
+
+      opacity: 0;
+
+      animation:
+        screenFlicker 7s infinite;
+
+    }
+
+    @keyframes screenFlicker {
+
+      0%,
+      91%,
+      94%,
+      100% {
+        opacity: 0;
+      }
+
+      92% {
+        opacity: 0.025;
+      }
+
+      93% {
+        opacity: 0.01;
+      }
+
+    }
+
   </style>
 
 
@@ -133,9 +241,9 @@
     x="1"
     y="1"
     width="1198"
-    height="328"
+    height="298"
     rx="12"
-    class="bg"
+    class="terminal"
   />
 
 
@@ -179,25 +287,27 @@
   />
 
 
-  <!-- TERMINAL TITLE -->
+  <!-- =====================================================
+       TERMINAL TITLE
+       ===================================================== -->
 
   <text
     x="600"
     y="26"
     text-anchor="middle"
     font-family="Fira Code, JetBrains Mono, monospace"
-    font-size="12"
-    fill="#8b949e"
+    font-size="11"
+    fill="#484f58"
   >
-    Ryson-Theo — terminal
+    Ryson-Theo — bash
   </text>
 
 
   <!-- =====================================================
-       COMMAND 1
+       COMMAND LINE
        ===================================================== -->
 
-  <g transform="translate(28 67)">
+  <g transform="translate(28 64)">
 
     <text
       class="prompt"
@@ -222,10 +332,11 @@
 
   <!-- =====================================================
        ASCII NAME
+       EXACT USER-PROVIDED ART
        ===================================================== -->
 
   <g
-    transform="translate(28 83)"
+    transform="translate(28 82)"
     xml:space="preserve"
   >
 
@@ -287,10 +398,52 @@
 
 
   <!-- =====================================================
-       DESCRIPTION COMMAND
+       ONE-LINE PROFILE DESCRIPTION
+       DIRECTLY BELOW NAME
        ===================================================== -->
 
-  <g transform="translate(28 185)">
+  <text
+    class="description"
+    x="600"
+    y="181"
+    text-anchor="middle"
+  >
+    <tspan class="description-accent">
+      AI/ML Integration
+    </tspan>
+
+    <tspan fill="#484f58">
+      ·
+    </tspan>
+
+    <tspan class="description-accent">
+      Scalable APIs
+    </tspan>
+
+    <tspan fill="#484f58">
+      ·
+    </tspan>
+
+    <tspan class="description-accent">
+      Intelligent Systems
+    </tspan>
+
+    <tspan fill="#484f58">
+      — 
+    </tspan>
+
+    <tspan>
+      Specializing in AI/ML integration, scalable APIs, and intelligent systems across stacks.
+    </tspan>
+
+  </text>
+
+
+  <!-- =====================================================
+       TERMINAL ACTIVE LINE
+       ===================================================== -->
+
+  <g transform="translate(28 224)">
 
     <text
       class="prompt"
@@ -308,59 +461,59 @@
       class="command"
       x="215"
       y="0"
-    >cat profile.txt</text>
-
-  </g>
-
-
-  <!-- =====================================================
-       PROFILE DESCRIPTION
-       ===================================================== -->
-
-  <g transform="translate(28 210)">
-
-    <text
-      class="output"
-      x="0"
-      y="0"
-    >&gt; Specializing in AI/ML integration, scalable APIs,</text>
-
-    <text
-      class="output"
-      x="0"
-      y="21"
-    >&gt; and intelligent systems across stacks.</text>
-
-  </g>
-
-
-  <!-- =====================================================
-       ACTIVE TERMINAL
-       ===================================================== -->
-
-  <g transform="translate(28 282)">
-
-    <text
-      class="prompt"
-      x="0"
-      y="0"
-    >Ryson-Theo@github</text>
-
-    <text
-      class="path"
-      x="166"
-      y="0"
-    >:~ $</text>
+    >./connect</text>
 
     <rect
-      x="215"
-      y="-14"
-      width="9"
-      height="17"
-      rx="1"
       class="cursor"
+      x="305"
+      y="-13"
+      width="8"
+      height="16"
+      rx="1"
     />
 
   </g>
+
+
+  <!-- =====================================================
+       STATUS
+       ===================================================== -->
+
+  <g transform="translate(28 252)">
+
+    <circle
+      cx="5"
+      cy="-4"
+      r="3"
+      fill="#3fb950"
+    />
+
+    <text
+      x="16"
+      y="0"
+      font-family="Fira Code, JetBrains Mono, monospace"
+      font-size="11"
+      fill="#484f58"
+    >
+      system online · building intelligent systems
+    </text>
+
+  </g>
+
+
+  <!-- =====================================================
+       SUBTLE CRT FLICKER
+       ===================================================== -->
+
+  <rect
+    x="2"
+    y="2"
+    width="1196"
+    height="296"
+    rx="11"
+    fill="#58a6ff"
+    class="screen-flicker"
+    pointer-events="none"
+  />
 
 </svg>
