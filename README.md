@@ -8,8 +8,6 @@
 />
 
 </div>
-  
-  # RIBIN K ROY
 
   ### Full-Stack Developer (MERN) | Backend & Systems Learner | Exploring AI/ML
 
