@@ -1,66 +1,20 @@
-<svg fill="none" viewBox="0 0 420 150" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    <![CDATA[
-    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }
-    .title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 16px; fill: #58a6ff; }
-    .desc { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 12px; fill: #8b949e; }
-    .badge-bg { fill: #1f6feb; fill-opacity: 0.15; stroke: #388bfd; stroke-width: 1px; }
-    .badge-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 10px; fill: #58a6ff; }
-    .tech-lang { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 11px; fill: #c9d1d9; }
-    .stat-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 11px; fill: #8b949e; }
+<svg fill="none" viewBox="0 0 600 200" width="600" height="200" xmlns="http://www.w3.org/2000/svg">
 
-    /* Left Icon Animations */
-    .node-rotate {
-      animation: rotate-nodes 6s linear infinite;
-      transform-origin: 46px 46px;
-    }
-    .core-pulse {
-      animation: pulse-core 2s ease-in-out infinite alternate;
-      transform-origin: 46px 46px;
-    }
-
-    /* Right Visual Animations (Positioned Lower) */
-    .bar1 { animation: equalize 1.2s ease-in-out infinite alternate; }
-    .bar2 { animation: equalize 0.9s ease-in-out infinite alternate 0.2s; }
-    .bar3 { animation: equalize 1.5s ease-in-out infinite alternate 0.4s; }
-    .bar4 { animation: equalize 1.1s ease-in-out infinite alternate 0.1s; }
-    .bar5 { animation: equalize 1.4s ease-in-out infinite alternate 0.3s; }
-
-    .pulse-node {
-      animation: status-ping 1.8s ease-in-out infinite alternate;
-      transform-origin: 382px 60px;
-    }
-
-    @keyframes rotate-nodes {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    @keyframes pulse-core {
-      0% { transform: scale(0.9); opacity: 0.8; }
-      100% { transform: scale(1.1); opacity: 1; }
-    }
-    @keyframes equalize {
-      0% { height: 6px; y: 112px; }
-      100% { height: 26px; y: 92px; }
-    }
-    @keyframes status-ping {
-      0% { transform: scale(0.8); opacity: 0.5; }
-      100% { transform: scale(1.2); opacity: 1; }
-    }
-    ]]>
-  </style>
-
-  <!-- Card Frame -->
-  <rect width="418" height="148" x="1" y="1" rx="12" class="bg" />
+  <!-- Background Card (No Outline) -->
+  <rect width="600" height="200" rx="16" fill="#0d1117" />
 
   <!-- LEFT ICON CONTAINER: Animated Remote Workforce Hub -->
-  <rect x="20" y="20" width="52" height="52" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1" />
-  <g>
+  <rect x="28" y="28" width="72" height="72" rx="16" fill="#161b22" stroke="#30363d" stroke-width="1" />
+  <g transform="translate(2, 2) scale(1.35)">
     <!-- Central Hub Core -->
-    <circle cx="46" cy="46" r="6" fill="#388bfd" class="core-pulse" />
+    <circle cx="46" cy="46" r="6" fill="#388bfd">
+      <animate attributeName="r" values="5.2; 6.8; 5.2" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.75; 1; 0.75" dur="2s" repeatCount="indefinite" />
+    </circle>
     
     <!-- Rotating Team Connection Nodes -->
-    <g class="node-rotate">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 46 46" to="360 46 46" dur="6s" repeatCount="indefinite" />
       <line x1="46" y1="46" x2="33" y2="35" stroke="#777bb4" stroke-width="1" opacity="0.6" />
       <line x1="46" y1="46" x2="59" y2="35" stroke="#777bb4" stroke-width="1" opacity="0.6" />
       <line x1="46" y1="46" x2="46" y2="60" stroke="#777bb4" stroke-width="1" opacity="0.6" />
@@ -71,38 +25,56 @@
     </g>
   </g>
 
-  <!-- Title & Badge -->
-  <text x="86" y="36" class="title">RemoteTeamPro</text>
-  <rect x="338" y="20" width="62" height="20" rx="10" class="badge-bg" />
-  <text x="349" y="34" class="badge-text">Featured</text>
+  <!-- TITLE & BADGE -->
+  <text x="120" y="52" fill="#79c0ff" font-family="sans-serif, Arial" font-weight="bold" font-size="24">RemoteTeamPro</text>
+  
+  <rect x="495" y="28" width="78" height="26" rx="13" fill="#1f6feb" fill-opacity="0.2" stroke="#388bfd" stroke-width="1" />
+  <text x="508" y="45" fill="#58a6ff" font-family="sans-serif, Arial" font-weight="bold" font-size="12">Featured</text>
 
-  <!-- Description -->
-  <text x="86" y="58" class="desc">Workforce management platform with RBAC,</text>
-  <text x="86" y="76" class="desc">automated attendance &amp; client reporting portals.</text>
+  <!-- DESCRIPTION -->
+  <text x="120" y="88" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">Workforce management platform with RBAC,</text>
+  <text x="120" y="114" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="16">automated attendance &amp; client reporting portals.</text>
 
-  <!-- Footer Info -->
-  <g transform="translate(86, 118)">
-    <circle cx="4" cy="-4" r="4" fill="#777bb4" />
-    <text x="14" y="0" class="tech-lang">PHP / MySQL</text>
-    <path d="M110 -8 l1.2 2.5 2.8.4-2 2 .5 2.8-2.5-1.3-2.5 1.3.5-2.8-2-2 2.8-.4z" fill="none" stroke="#8b949e" stroke-width="1.2" />
-    <text x="118" y="0" class="stat-text">LAMP</text>
-  </g>
+  <!-- FOOTER TECH STACK -->
+  <circle cx="125" cy="160" r="5.5" fill="#777bb4" />
+  <text x="138" y="165" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="14">PHP / MySQL</text>
+  
+  <path d="M 275 156 l 1.2 2.5 2.8 .4 -2 2 .5 2.8 -2.5 -1.3 -2.5 1.3 .5 -2.8 -2 -2 2.8 -.4 z" fill="none" stroke="#8b949e" stroke-width="1.2" />
+  <text x="285" y="165" fill="#8b949e" font-family="sans-serif, Arial" font-weight="bold" font-size="14">LAMP</text>
 
-  <!-- RIGHT VISUAL: System Metrics & Team Dashboard (Lowered Clear of Featured Badge) -->
-  <g>
+  <!-- RIGHT VISUAL: System Metrics & Team Dashboard -->
+  <g transform="translate(100, 22) scale(1.22)">
     <!-- Server Status Indicator -->
-    <circle cx="382" cy="60" r="4" fill="#3fb950" class="pulse-node" />
+    <circle cx="382" cy="60" r="4" fill="#3fb950">
+      <animate attributeName="r" values="3.2; 4.8; 3.2" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.5; 1; 0.5" dur="1.8s" repeatCount="indefinite" />
+    </circle>
     <circle cx="382" cy="60" r="8" fill="none" stroke="#3fb950" stroke-width="1" stroke-dasharray="2 2" opacity="0.4" />
 
     <!-- Dashboard Baseline Horizon -->
     <line x1="312" y1="118" x2="392" y2="118" stroke="#30363d" stroke-width="1.5" />
 
     <!-- Animated Workforce Activity Waveform -->
-    <rect x="320" y="98" width="4" height="20" rx="2" fill="#388bfd" class="bar1" />
-    <rect x="328" y="92" width="4" height="26" rx="2" fill="#58a6ff" class="bar2" />
-    <rect x="336" y="103" width="4" height="15" rx="2" fill="#1f6feb" class="bar3" />
-    <rect x="344" y="88" width="4" height="30" rx="2" fill="#388bfd" class="bar4" />
-    <rect x="352" y="100" width="4" height="18" rx="2" fill="#777bb4" class="bar5" />
+    <rect x="320" y="98" width="4" height="20" rx="2" fill="#388bfd">
+      <animate attributeName="height" values="6; 26; 6" dur="1.2s" repeatCount="indefinite" />
+      <animate attributeName="y" values="112; 92; 112" dur="1.2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="328" y="92" width="4" height="26" rx="2" fill="#58a6ff">
+      <animate attributeName="height" values="8; 28; 8" dur="0.9s" repeatCount="indefinite" />
+      <animate attributeName="y" values="110; 90; 110" dur="0.9s" repeatCount="indefinite" />
+    </rect>
+    <rect x="336" y="103" width="4" height="15" rx="2" fill="#1f6feb">
+      <animate attributeName="height" values="5; 22; 5" dur="1.5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="113; 96; 113" dur="1.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="344" y="88" width="4" height="30" rx="2" fill="#388bfd">
+      <animate attributeName="height" values="10; 30; 10" dur="1.1s" repeatCount="indefinite" />
+      <animate attributeName="y" values="108; 88; 108" dur="1.1s" repeatCount="indefinite" />
+    </rect>
+    <rect x="352" y="100" width="4" height="18" rx="2" fill="#777bb4">
+      <animate attributeName="height" values="6; 24; 6" dur="1.4s" repeatCount="indefinite" />
+      <animate attributeName="y" values="112; 94; 112" dur="1.4s" repeatCount="indefinite" />
+    </rect>
 
     <!-- Terminal Status Outline (Mini Panel) -->
     <rect x="362" y="90" width="26" height="24" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" />
