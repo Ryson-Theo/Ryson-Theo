@@ -1,20 +1,6 @@
 <svg fill="none" viewBox="0 0 420 150" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    /* Keyframes kept for animation effects */
-    .tractor-drive { animation: drive 3.2s ease-in-out infinite alternate; }
-    .smoke-puff { animation: smoke 1.6s ease-out infinite; transform-origin: 33px 22px; }
-    .sun-glow { animation: sun-pulse 2.5s ease-in-out infinite alternate; transform-origin: 352px 60px; }
-    .crop-grow-1 { animation: grow 2.2s ease-in-out infinite alternate; transform-origin: 330px 116px; }
-    .crop-grow-2 { animation: grow 2.2s ease-in-out infinite alternate 0.4s; transform-origin: 352px 116px; }
-    .crop-grow-3 { animation: grow 2.2s ease-in-out infinite alternate 0.8s; transform-origin: 374px 116px; }
 
-    @keyframes drive { 0% { transform: translateX(-5px); } 100% { transform: translateX(5px); } }
-    @keyframes smoke { 0% { transform: scale(0.5) translateY(0); opacity: 0.8; } 100% { transform: scale(1.6) translateY(-5px); opacity: 0; } }
-    @keyframes sun-pulse { 0% { transform: scale(0.85); opacity: 0.6; } 100% { transform: scale(1.15); opacity: 1; } }
-    @keyframes grow { 0% { transform: scaleY(0.5) scaleX(0.9); opacity: 0.5; } 100% { transform: scaleY(1.15) scaleX(1.05); opacity: 1; } }
-  </style>
-
-  <!-- Background Card (Outline Removed) -->
+  <!-- Background Card -->
   <rect width="420" height="150" rx="12" fill="#0d1117" />
 
   <!-- LEFT ICON CONTAINER: Moving Tractor with Plower -->
@@ -24,8 +10,10 @@
     <line x1="4" y1="45" x2="48" y2="45" stroke="#30363d" stroke-width="2" stroke-linecap="round" />
     <line x1="6" y1="48" x2="46" y2="48" stroke="#238636" stroke-width="1.5" stroke-dasharray="3 2" />
 
-    <!-- Moving Tractor & Plow Assembly -->
-    <g class="tractor-drive">
+    <!-- Moving Tractor & Plow Assembly (Native SVG Animation) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="-4,0; 4,0; -4,0" dur="3.2s" repeatCount="indefinite" />
+      
       <!-- Plower Attachment (Rear) -->
       <path d="M 12 38 L 4 42" stroke="#8b949e" stroke-width="1.2" />
       <path d="M 4 42 L 2 46 M 6 42 L 4 46 M 8 42 L 6 46" stroke="#e3b341" stroke-width="1.2" stroke-linecap="round" />
@@ -37,7 +25,10 @@
 
       <!-- Exhaust Pipe & Animated Smoke -->
       <line x1="33" y1="32" x2="33" y2="24" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" />
-      <circle cx="33" cy="22" r="2" fill="#8b949e" class="smoke-puff" />
+      <circle cx="33" cy="22" r="2" fill="#8b949e">
+        <animate attributeName="opacity" values="0.8; 0; 0.8" dur="1.6s" repeatCount="indefinite" />
+        <animate attributeName="r" values="1.5; 3.5; 1.5" dur="1.6s" repeatCount="indefinite" />
+      </circle>
 
       <!-- Rear Big Wheel -->
       <circle cx="18" cy="39" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="1.5" />
@@ -51,27 +42,30 @@
     </g>
   </g>
 
-  <!-- Title & Badge (Inline Styles for GitHub Compatibility) -->
-  <text x="86" y="38" fill="#58a6ff" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="bold" font-size="18px">CropVector</text>
-  <rect x="338" y="20" width="64" height="20" rx="10" fill="#238636" fill-opacity="0.15" stroke="#2ea043" stroke-width="1" />
-  <text x="349" y="34" fill="#3fb950" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="bold" font-size="10px">Featured</text>
+  <!-- TITLE & BADGE (Standard Inline Attributes) -->
+  <text x="86" y="38" fill="#79c0ff" font-family="sans-serif, Arial" font-weight="bold" font-size="18">CropVector</text>
+  
+  <rect x="335" y="20" width="65" height="20" rx="10" fill="#238636" fill-opacity="0.2" stroke="#2ea043" stroke-width="1" />
+  <text x="346" y="34" fill="#3fb950" font-family="sans-serif, Arial" font-weight="bold" font-size="11">Featured</text>
 
-  <!-- Description Lines -->
-  <text x="86" y="62" fill="#8b949e" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13px">Agri-Tech decision engine unifying weather,</text>
-  <text x="86" y="82" fill="#8b949e" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13px">NDVI satellite data &amp; market price analytics.</text>
+  <!-- DESCRIPTION (High Contrast Inline Colors) -->
+  <text x="86" y="62" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="13">Agri-Tech decision engine unifying weather,</text>
+  <text x="86" y="80" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="13">NDVI satellite data &amp; market price analytics.</text>
 
-  <!-- Footer Info -->
-  <g transform="translate(86, 122)">
-    <circle cx="4" cy="-4" r="4.5" fill="#61dafb" />
-    <text x="14" y="0" fill="#c9d1d9" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="12px">React / Node.js</text>
-    <path d="M115 -8 l1.2 2.5 2.8.4-2 2 .5 2.8-2.5-1.3-2.5 1.3.5-2.8-2-2 2.8-.4z" fill="none" stroke="#8b949e" stroke-width="1.2" />
-    <text x="124" y="0" fill="#8b949e" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="bold" font-size="12px">MERN</text>
-  </g>
+  <!-- FOOTER TECH STACK -->
+  <circle cx="90" cy="118" r="4.5" fill="#61dafb" />
+  <text x="100" y="122" fill="#c9d1d9" font-family="sans-serif, Arial" font-size="12">React / Node.js</text>
+  
+  <path d="M 210 114 l 1.2 2.5 2.8 .4 -2 2 .5 2.8 -2.5 -1.3 -2.5 1.3 .5 -2.8 -2 -2 2.8 -.4 z" fill="none" stroke="#8b949e" stroke-width="1.2" />
+  <text x="218" y="122" fill="#8b949e" font-family="sans-serif, Arial" font-weight="bold" font-size="12">MERN</text>
 
   <!-- RIGHT VISUAL: Sun & Growing Field Crops -->
   <g>
     <!-- Sun Element -->
-    <circle cx="352" cy="60" r="5" fill="#e3b341" class="sun-glow" />
+    <circle cx="352" cy="60" r="5" fill="#e3b341">
+      <animate attributeName="r" values="4; 6; 4" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6; 1; 0.6" dur="2.5s" repeatCount="indefinite" />
+    </circle>
     <circle cx="352" cy="60" r="10" fill="none" stroke="#e3b341" stroke-width="1" stroke-dasharray="2 2" opacity="0.4" />
 
     <!-- Soil Lines -->
@@ -79,21 +73,20 @@
     <path d="M 312 119 Q 352 122 392 119" stroke="#238636" stroke-linecap="round" stroke-dasharray="3 2" opacity="0.6" fill="none" />
 
     <!-- Crop Stage 1: Sprout -->
-    <g class="crop-grow-1">
+    <g>
       <path d="M 330 116 V 105 M 330 110 Q 325 106 324 109 M 330 108 Q 335 104 336 107" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" fill="none" />
     </g>
 
     <!-- Crop Stage 2: Flourishing Plant -->
-    <g class="crop-grow-2">
+    <g>
       <path d="M 352 116 V 97 M 352 106 Q 345 101 344 105 M 352 102 Q 359 97 360 101 M 352 98 Q 346 93 345 96" stroke="#2ea043" stroke-width="1.5" stroke-linecap="round" fill="none" />
       <circle cx="352" cy="95" r="2" fill="#e3b341" />
     </g>
 
     <!-- Crop Stage 3: Mature Wheat / Grain Ear -->
-    <g class="crop-grow-3">
+    <g>
       <path d="M 374 116 V 99 M 374 108 Q 368 104 367 107 M 374 104 Q 380 100 381 103" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" fill="none" />
       <path d="M 374 99 L 372 95 M 374 97 L 376 93 M 374 95 L 371 91 M 374 93 L 375 89 M 374 89 L 374 86" stroke="#e3b341" stroke-width="1.5" stroke-linecap="round" />
     </g>
   </g>
 </svg>
- 
