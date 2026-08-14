@@ -150,6 +150,7 @@ I build scalable APIs and production-ready systems with MERN/MEAN stack, focusin
     </td>
   </tr>
 </table>
+
 ---
 
 ## Tech Stack
