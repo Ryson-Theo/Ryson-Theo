@@ -1,41 +1,140 @@
-<svg fill="none" viewBox="0 0 400 140" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 420 150" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 12px; }
-    .title { font: bold 15px 'Segoe UI', Ubuntu, sans-serif; fill: #58a6ff; }
-    .desc { font: 11px 'Segoe UI', Ubuntu, sans-serif; fill: #8b949e; }
-    .badge-bg { fill: #238636; fill-opacity: 0.2; stroke: #2ea043; stroke-width: 1px; rx: 10px; }
-    .badge-text { font: bold 10px 'Segoe UI', Ubuntu, sans-serif; fill: #3fb950; }
-    .tech-lang { font: 11px 'Segoe UI', Ubuntu, sans-serif; fill: #c9d1d9; }
-    .stat-text { font: bold 11px 'Segoe UI', Ubuntu, sans-serif; fill: #8b949e; }
-    .sparkline { stroke: #238636; stroke-width: 2; stroke-dasharray: 200; animation: dash 3s ease-in-out infinite alternate; }
-    @keyframes dash { from { stroke-dashoffset: 200; } to { stroke-dashoffset: 0; } }
+    <![CDATA[
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1px; }
+    .title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 16px; fill: #58a6ff; }
+    .desc { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 12px; fill: #8b949e; }
+    .badge-bg { fill: #238636; fill-opacity: 0.15; stroke: #2ea043; stroke-width: 1px; }
+    .badge-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 10px; fill: #3fb950; }
+    .tech-lang { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 11px; fill: #c9d1d9; }
+    .stat-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: bold; font-size: 11px; fill: #8b949e; }
+
+    /* Left Icon: Driving Tractor & Exhaust Smoke */
+    .tractor-drive {
+      animation: drive 3.2s ease-in-out infinite alternate;
+    }
+    .smoke-puff {
+      animation: smoke 1.6s ease-out infinite;
+      transform-origin: 33px 22px;
+    }
+
+    /* Right Visual: Sun & Crops Growing (Lowered Clearance) */
+    .sun-glow {
+      animation: sun-pulse 2.5s ease-in-out infinite alternate;
+      transform-origin: 352px 60px;
+    }
+    .crop-grow-1 {
+      animation: grow 2.2s ease-in-out infinite alternate;
+      transform-origin: 330px 116px;
+    }
+    .crop-grow-2 {
+      animation: grow 2.2s ease-in-out infinite alternate 0.4s;
+      transform-origin: 352px 116px;
+    }
+    .crop-grow-3 {
+      animation: grow 2.2s ease-in-out infinite alternate 0.8s;
+      transform-origin: 374px 116px;
+    }
+
+    @keyframes drive {
+      0% { transform: translateX(-5px); }
+      100% { transform: translateX(5px); }
+    }
+    @keyframes smoke {
+      0% { transform: scale(0.5) translateY(0); opacity: 0.8; }
+      100% { transform: scale(1.6) translateY(-5px); opacity: 0; }
+    }
+    @keyframes sun-pulse {
+      0% { transform: scale(0.85); opacity: 0.6; }
+      100% { transform: scale(1.15); opacity: 1; }
+    }
+    @keyframes grow {
+      0% { transform: scaleY(0.5) scaleX(0.9); opacity: 0.5; }
+      100% { transform: scaleY(1.15) scaleX(1.05); opacity: 1; }
+    }
+    ]]>
   </style>
 
   <!-- Card Frame -->
-  <rect width="398" height="138" x="1" y="1" class="bg" />
+  <rect width="418" height="148" x="1" y="1" rx="12" class="bg" />
 
-  <!-- Project Icon (Sprout/Crop) -->
-  <rect x="18" y="18" width="48" height="48" rx="10" fill="#161b22" stroke="#30363d" />
-  <g transform="translate(28, 28)">
-    <path d="M12 22V12M12 12C12 7.5 8.5 4 4 4C4 8.5 7.5 12 12 12ZM12 12C12 7.5 15.5 4 20 4C20 8.5 16.5 12 12 12Z" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- LEFT ICON CONTAINER: Moving Tractor with Plower -->
+  <rect x="20" y="20" width="52" height="52" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1" />
+  <g transform="translate(18, 20)">
+    <!-- Soil Horizon & Tilled Furrows -->
+    <line x1="4" y1="45" x2="48" y2="45" stroke="#30363d" stroke-width="2" stroke-linecap="round" />
+    <line x1="6" y1="48" x2="46" y2="48" stroke="#238636" stroke-width="1.5" stroke-dasharray="3 2" />
+
+    <!-- Moving Tractor & Plow Assembly -->
+    <g class="tractor-drive">
+      <!-- Plower Attachment (Rear) -->
+      <path d="M 12 38 L 4 42" stroke="#8b949e" stroke-width="1.2" />
+      <path d="M 4 42 L 2 46 M 6 42 L 4 46 M 8 42 L 6 46" stroke="#e3b341" stroke-width="1.2" stroke-linecap="round" />
+
+      <!-- Main Tractor Body & Cab -->
+      <path d="M 14 38 V 26 H 25 V 32 H 37 V 38 Z" fill="#238636" stroke="#3fb950" stroke-width="1" />
+      <line x1="12" y1="26" x2="27" y2="26" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" />
+      <rect x="17" y="28" width="6" height="5" rx="1" fill="#58a6ff" opacity="0.85" />
+
+      <!-- Exhaust Pipe & Animated Smoke -->
+      <line x1="33" y1="32" x2="33" y2="24" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="33" cy="22" r="2" fill="#8b949e" class="smoke-puff" />
+
+      <!-- Rear Big Wheel (Tire + Rim + Hub) -->
+      <circle cx="18" cy="39" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="1.5" />
+      <circle cx="18" cy="39" r="3.5" fill="#238636" stroke="#58a6ff" stroke-width="1" />
+      <circle cx="18" cy="39" r="1.2" fill="#ffffff" />
+
+      <!-- Front Small Wheel (Tire + Rim + Hub) -->
+      <circle cx="34" cy="41" r="4.5" fill="#0d1117" stroke="#3fb950" stroke-width="1.2" />
+      <circle cx="34" cy="41" r="2" fill="#238636" />
+      <circle cx="34" cy="41" r="0.8" fill="#ffffff" />
+    </g>
   </g>
 
-  <!-- Title & Featured Badge -->
-  <text x="76" y="32" class="title">CropVector</text>
-  <rect x="322" y="18" width="62" height="20" class="badge-bg" />
-  <text x="333" y="32" class="badge-text">Featured</text>
+  <!-- Title & Badge -->
+  <text x="86" y="36" class="title">CropVector</text>
+  <rect x="338" y="20" width="62" height="20" rx="10" class="badge-bg" />
+  <text x="349" y="34" class="badge-text">Featured</text>
 
   <!-- Description -->
-  <text x="76" y="52" class="desc">Agricultural intelligence decision engine for crop</text>
-  <text x="76" y="67" class="desc">planning, NDVI satellite data &amp; price forecasts.</text>
+  <text x="86" y="58" class="desc">Agri-Tech decision engine unifying weather,</text>
+  <text x="86" y="76" class="desc">NDVI satellite data &amp; market price analytics.</text>
 
-  <!-- Tech Stack Tag & Details -->
-  <circle cx="81" cy="105" r="4.5" fill="#61dafb" />
-  <text x="92" y="108" class="tech-lang">React / Node.js</text>
+  <!-- Footer Info -->
+  <g transform="translate(86, 118)">
+    <circle cx="4" cy="-4" r="4" fill="#61dafb" />
+    <text x="14" y="0" class="tech-lang">React / Node.js</text>
+    <path d="M110 -8 l1.2 2.5 2.8.4-2 2 .5 2.8-2.5-1.3-2.5 1.3.5-2.8-2-2 2.8-.4z" fill="none" stroke="#8b949e" stroke-width="1.2" />
+    <text x="118" y="0" class="stat-text">MERN</text>
+  </g>
 
-  <path d="M170 101l1.2 2.5 2.8.4-2 2 .5 2.8-2.5-1.3-2.5 1.3.5-2.8-2-2 2.8-.4z" fill="none" stroke="#8b949e" stroke-width="1.2" />
-  <text x="178" y="108" class="stat-text">MERN</text>
+  <!-- RIGHT VISUAL: Sun & Growing Field Crops (Shifted Down Clear of Featured Badge) -->
+  <g>
+    <!-- Sun Element -->
+    <circle cx="352" cy="60" r="5" fill="#e3b341" class="sun-glow" />
+    <circle cx="352" cy="60" r="10" fill="none" stroke="#e3b341" stroke-width="1" stroke-dasharray="2 2" opacity="0.4" />
 
-  <!-- Animated Chart Visual -->
-  <path d="M270 95 Q285 80, 295 85 T320 70 T345 75 T370 55" fill="none" class="sparkline" />
+    <!-- Soil Lines -->
+    <line x1="312" y1="116" x2="392" y2="116" stroke="#30363d" stroke-width="1.5" />
+    <path d="M 312 119 Q 352 122 392 119" stroke="#238636" stroke-linecap="round" stroke-dasharray="3 2" opacity="0.6" fill="none" />
+
+    <!-- Crop Stage 1: Sprout -->
+    <g class="crop-grow-1">
+      <path d="M 330 116 V 105 M 330 110 Q 325 106 324 109 M 330 108 Q 335 104 336 107" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" fill="none" />
+    </g>
+
+    <!-- Crop Stage 2: Flourishing Plant -->
+    <g class="crop-grow-2">
+      <path d="M 352 116 V 97 M 352 106 Q 345 101 344 105 M 352 102 Q 359 97 360 101 M 352 98 Q 346 93 345 96" stroke="#2ea043" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <circle cx="352" cy="95" r="2" fill="#e3b341" />
+    </g>
+
+    <!-- Crop Stage 3: Mature Wheat / Grain Ear -->
+    <g class="crop-grow-3">
+      <path d="M 374 116 V 99 M 374 108 Q 368 104 367 107 M 374 104 Q 380 100 381 103" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <!-- Grain Head -->
+      <path d="M 374 99 L 372 95 M 374 97 L 376 93 M 374 95 L 371 91 M 374 93 L 375 89 M 374 89 L 374 86" stroke="#e3b341" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+  </g>
 </svg>
