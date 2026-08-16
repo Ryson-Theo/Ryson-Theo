@@ -37,83 +37,39 @@
 
 ## About
 
-<p align="center">
-  <strong>Ribin K Roy</strong><br>
-  I design brands and digital products, then build the software behind them.
-</p>
+I work across design and engineering to turn ideas into polished, practical digital products. From shaping the visual direction and user experience to building the software behind it, I focus on creating work that is clear, useful, and built to last.
 
-<p align="center">
-  <strong>Brand &amp; Product Design</strong>
-  &nbsp;•&nbsp;
-  <strong>Full-Stack Development</strong>
-  &nbsp;•&nbsp;
-  <strong>AI/ML</strong>
-</p>
+My approach is straightforward: understand the problem, make thoughtful decisions, and deliver work that holds up in the real world. I value **strong design, reliable engineering, clear communication, and attention to detail** — whether working independently or with a team.
 
 <p align="center">
   <a href="https://ribin-portfolio.vercel.app/">
     <img
-      src="https://img.shields.io/badge/Portfolio-View_Work-8B5CF6?style=for-the-badge&logo=briefcase&logoColor=white"
+      src="https://img.shields.io/badge/Portfolio-View_Work-8B5CF6?style=flat-square&logo=briefcase&logoColor=white"
       alt="Portfolio"
     />
   </a>
   &nbsp;
   <a href="https://github.com/Ryson-Theo">
     <img
-      src="https://img.shields.io/badge/GitHub-Projects-18181B?style=for-the-badge&logo=github&logoColor=white"
+      src="https://img.shields.io/badge/GitHub-Projects-18181B?style=flat-square&logo=github&logoColor=white"
       alt="GitHub Projects"
     />
   </a>
   &nbsp;
   <a href="https://www.behance.net/ribinkroy">
     <img
-      src="https://img.shields.io/badge/Behance-Design-1769FF?style=for-the-badge&logo=behance&logoColor=white"
-      alt="Behance Design Portfolio"
+      src="https://img.shields.io/badge/Behance-Design-1769FF?style=flat-square&logo=behance&logoColor=white"
+      alt="Behance"
     />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/ribin-k-roy/">
     <img
-      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"
       alt="LinkedIn"
     />
   </a>
 </p>
-
-<p align="center">
-  <a href="mailto:rysontheo@proton.me">
-    <img
-      src="https://img.shields.io/badge/Email-Get_In_Touch-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white"
-      alt="Email"
-    />
-  </a>
-  &nbsp;
-  <a href="https://linktr.ee/ryson_theo">
-    <img
-      src="https://img.shields.io/badge/More_Links-Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white"
-      alt="All Links"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <img
-    src="https://api.iconify.design/lucide:map-pin.svg?color=%238B949E"
-    width="16"
-    height="16"
-    alt="Location"
-    style="vertical-align:middle;"
-  />
-  <strong style="vertical-align:middle;"> Kerala, India · Remote</strong>
-</p>
-
-<br>
-
-I work at the intersection of **design and engineering**, turning ideas into cohesive brands, digital products, and useful software.
-
-My work can move from **brand identity and product UI/UX** to **full-stack applications and AI/ML experiments**. I enjoy taking an idea from an early concept through design and implementation, with a focus on making the final result both thoughtful and practical.
-
-I'm comfortable working across the stack and choosing the tools around the problem rather than forcing every project into the same technology. I care about **clean interfaces, maintainable code, reliable systems, and clear communication** — whether I'm working independently or as part of a team.
 
 ---
 
