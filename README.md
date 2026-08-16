@@ -1,5 +1,4 @@
-<div align="center">
-  
+
 <div align="center">
 <img
   src="./assets/ryson-theo-terminal.svg"
@@ -32,93 +31,159 @@
 
 </div>
 
-  &nbsp;
-
-  ---
- <h2 align="center">Let's Connect</h2>
-
-<p align="center">
-  <strong>BCA Graduate</strong> • MG University, Kottayam<br>
-  Full-Stack Developer (MERN) • Backend & Systems Learner
-</p>
-
-<p align="center">
-  Open to collaborations, internships, freelance work, and opportunities.
-</p>
- &nbsp;&nbsp;
-<p align="center">
-  <a href="https://github.com/Ryson-Theo">
-    <img src="https://cdn.simpleicons.org/github/ffffff" width="28" alt="GitHub" />
-  </a>
-&nbsp;&nbsp;
-  &nbsp;&nbsp; &nbsp;&nbsp;
-
-  <a href="https://www.linkedin.com/in/ribin-k-roy/">
-    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" width="28" alt="LinkedIn" />
-  </a>
-&nbsp;&nbsp;
-  &nbsp;&nbsp; &nbsp;&nbsp;
-
-  <a href="mailto:Ribinkroy@protonmail.com">
-    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/new-post.png" width="28" alt="Email" />
-  </a>
-&nbsp;&nbsp;
-  &nbsp;&nbsp; &nbsp;&nbsp;
-
-  <a href="https://ribin-portfolio.vercel.app/">
-    <img src="https://img.icons8.com/material-rounded/48/FFFFFF/briefcase.png" width="28" alt="Portfolio" />
-  </a>
-&nbsp;&nbsp;
-  &nbsp;&nbsp; &nbsp;&nbsp;
-
-  <a href="https://x.com/Ryson_Theo">
-    <img src="https://cdn.simpleicons.org/x/ffffff" width="28" alt="X" />
-  </a>
-&nbsp;&nbsp;
-  &nbsp;&nbsp; &nbsp;&nbsp;
-
-  <a href="https://bsky.app/profile/ryson-theo.bsky.social">
-    <img src="https://cdn.simpleicons.org/bluesky/ffffff" width="28" alt="Bluesky" />
-  </a>
-&nbsp;&nbsp;
-  &nbsp;&nbsp; &nbsp;&nbsp;
-
-  <a href="https://www.behance.net/ribinkroy">
-    <img src="https://cdn.simpleicons.org/behance/ffffff" width="28" alt="Behance" />
-  </a>
-</p>
-
-</div>
-&nbsp;&nbsp;
-&nbsp;&nbsp;
- <p align="center">
-
-<img src="https://api.iconify.design/lucide:map-pin.svg?color=%23ffffff" width="18" alt="Location" style="padding: 10px;" />
-  <strong>Kerala, India &nbsp; •&nbsp; Remote</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/MERN-22C55E?style=flat-square&logo=mongodb&logoColor=white" height="18" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="18" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" height="18" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="18" />
-  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
- <img src="https://cdn.simpleicons.org/rocket/ffffff" width="18" alt="Focus" />
-  <strong>System&nbsp;Design&nbsp;•&nbsp;AI/ML</strong>
-</p>
+&nbsp;
 
 ---
-&nbsp;
 
 ## About
 
-
-I build scalable APIs and production-ready systems with MERN/MEAN stack, focusing on backend architecture and data integrity. My engineering philosophy prioritizes clean abstractions over clever hacks. Currently expanding into Python, ML, and cloud infrastructure to bridge full-stack development with intelligent systems.
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Ryson-Theo&label=PROFILE%20VISITS&color=0b5c9e&style=for-the-badge" alt="Ryson-Theo Profile Views" />
+<p align="center">
+  <strong>Ribin K Roy</strong><br>
+  I design brands and digital products, then build the software behind them.
 </p>
 
+<p align="center">
+  <strong>Brand &amp; Product Design</strong>
+  &nbsp;•&nbsp;
+  <strong>Full-Stack Development</strong>
+  &nbsp;•&nbsp;
+  <strong>AI/ML</strong>
+</p>
+
+<p align="center">
+  <a href="https://ribin-portfolio.vercel.app/">
+    <img
+      src="https://img.shields.io/badge/Portfolio-View_Work-8B5CF6?style=for-the-badge&logo=briefcase&logoColor=white"
+      alt="Portfolio"
+    />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Ryson-Theo">
+    <img
+      src="https://img.shields.io/badge/GitHub-Projects-18181B?style=for-the-badge&logo=github&logoColor=white"
+      alt="GitHub Projects"
+    />
+  </a>
+  &nbsp;
+  <a href="https://www.behance.net/ribinkroy">
+    <img
+      src="https://img.shields.io/badge/Behance-Design-1769FF?style=for-the-badge&logo=behance&logoColor=white"
+      alt="Behance Design Portfolio"
+    />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/ribin-k-roy/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="mailto:rysontheo@proton.me">
+    <img
+      src="https://img.shields.io/badge/Email-Get_In_Touch-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white"
+      alt="Email"
+    />
+  </a>
+  &nbsp;
+  <a href="https://linktr.ee/ryson_theo">
+    <img
+      src="https://img.shields.io/badge/More_Links-Linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white"
+      alt="All Links"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <img
+    src="https://api.iconify.design/lucide:map-pin.svg?color=%238B949E"
+    width="16"
+    height="16"
+    alt="Location"
+    style="vertical-align:middle;"
+  />
+  <strong style="vertical-align:middle;"> Kerala, India · Remote</strong>
+</p>
+
+<br>
+
+I work at the intersection of **design and engineering**, turning ideas into cohesive brands, digital products, and useful software.
+
+My work can move from **brand identity and product UI/UX** to **full-stack applications and AI/ML experiments**. I enjoy taking an idea from an early concept through design and implementation, with a focus on making the final result both thoughtful and practical.
+
+I'm comfortable working across the stack and choosing the tools around the problem rather than forcing every project into the same technology. I care about **clean interfaces, maintainable code, reliable systems, and clear communication** — whether I'm working independently or as part of a team.
+
 ---
+
+## Writing
+
+I write about what I build, design, and learn along the way — from
+**software development and backend engineering** to **UI/UX, AI, and
+practical technology**.
+
+<p align="center">
+  <a href="https://dev.to/ryson_theo">
+    <img
+      src="https://cdn.simpleicons.org/devdotto/FFFFFF"
+      width="24"
+      height="24"
+      alt="DEV Community"
+    />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://hackernoon.com/u/ryson-theo">
+    <img
+      src="https://cdn.simpleicons.org/hackernoon/FFFFFF"
+      width="24"
+      height="24"
+      alt="HackerNoon"
+    />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://medium.com/@ryson_theo">
+    <img
+      src="https://cdn.simpleicons.org/medium/FFFFFF"
+      width="24"
+      height="24"
+      alt="Medium"
+    />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://hashnode.com/@ryson-theo">
+    <img
+      src="https://cdn.simpleicons.org/hashnode/2962FF"
+      width="24"
+      height="24"
+      alt="Hashnode"
+    />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="https://rysontheo.substack.com/">
+    <img
+      src="https://cdn.simpleicons.org/substack/FF6719"
+      width="24"
+      height="24"
+      alt="Substack"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    The same articles are published across these platforms.
+    <br>
+    Follow along for project breakdowns, experiments, ideas, and lessons from building.
+  </sub>
+</p>
 &nbsp;
+
+---
 
 ## Core Engineering Focus
 
