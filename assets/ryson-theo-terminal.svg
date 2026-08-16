@@ -1,17 +1,12 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1200"
-  height="300"
-  viewBox="0 0 1200 300"
+  height="340"
+  viewBox="0 0 1200 340"
   fill="none"
   xml:space="preserve"
 >
   <style>
-
-    /* =====================================================
-       TERMINAL
-       ===================================================== */
-
     .terminal {
       fill: #080b10;
       stroke: #21262d;
@@ -22,52 +17,25 @@
       fill: #0b0f14;
     }
 
-    /* =====================================================
-       TERMINAL TEXT
-       ===================================================== */
-
     .prompt {
-      font-family:
-        "Fira Code",
-        "JetBrains Mono",
-        "SFMono-Regular",
-        Consolas,
-        "Liberation Mono",
-        monospace;
-
-      font-size: 14px;
+      font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
+      font-size: 13px;
       font-weight: 700;
       fill: #3fb950;
     }
 
     .path {
-      font-family:
-        "Fira Code",
-        "JetBrains Mono",
-        "SFMono-Regular",
-        Consolas,
-        monospace;
-
-      font-size: 14px;
+      font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
+      font-size: 13px;
       fill: #8b949e;
     }
 
     .command {
-      font-family:
-        "Fira Code",
-        "JetBrains Mono",
-        "SFMono-Regular",
-        Consolas,
-        monospace;
-
-      font-size: 14px;
+      font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
+      font-size: 13px;
       font-weight: 700;
       fill: #c9d1d9;
     }
-
-    /* =====================================================
-       ASCII NAME
-       ===================================================== */
 
     .ascii {
       font-family:
@@ -76,66 +44,66 @@
         "Liberation Mono",
         Consolas,
         monospace;
-
       font-size: 5.7px;
       font-weight: 700;
-
       fill: #58a6ff;
-
       white-space: pre;
       letter-spacing: 0;
-
       textLength: 1140px;
       lengthAdjust: spacingAndGlyphs;
-
       transform-origin: center;
-
       animation:
         asciiGlow 3.5s ease-in-out infinite,
         asciiFloat 6s ease-in-out infinite;
     }
 
-    /* =====================================================
-       DESCRIPTION
-       ===================================================== */
-
     .description {
-      font-family:
-        "Fira Code",
-        "JetBrains Mono",
-        "SFMono-Regular",
-        Consolas,
-        "Liberation Mono",
-        monospace;
-
+      font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
       font-size: 12px;
       fill: #8b949e;
-      letter-spacing: 0.15px;
+      letter-spacing: 0.1px;
     }
 
     .description-accent {
       fill: #58a6ff;
+      font-weight: 700;
     }
 
-    /* =====================================================
-       CURSOR
-       ===================================================== */
+    .header {
+      font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      fill: #58a6ff;
+    }
+
+    .body {
+      font-family: "Fira Code", "JetBrains Mono", Consolas, monospace;
+      font-size: 10.5px;
+      fill: #c9d1d9;
+    }
+
+    .muted {
+      fill: #8b949e;
+    }
+
+    .accent {
+      fill: #58a6ff;
+      font-weight: 700;
+    }
 
     .cursor {
       fill: #58a6ff;
-
-      animation:
-        cursorBlink 1s steps(1, end) infinite;
+      animation: cursorBlink 1s steps(1, end) infinite;
     }
 
-    /* =====================================================
-       ASCII ANIMATION
-       ===================================================== */
+    .divider {
+      stroke: #21262d;
+      stroke-width: 1;
+    }
 
     @keyframes asciiGlow {
-
-      0% {
-        opacity: 0.78;
+      0%, 100% {
+        opacity: 0.82;
         filter: drop-shadow(0 0 0px #58a6ff);
       }
 
@@ -145,139 +113,61 @@
       }
 
       55% {
-        opacity: 0.92;
+        opacity: 0.94;
         filter: drop-shadow(0 0 1px #58a6ff);
       }
-
-      100% {
-        opacity: 0.78;
-        filter: drop-shadow(0 0 0px #58a6ff);
-      }
-
     }
 
     @keyframes asciiFloat {
-
-      0%,
-      100% {
-        transform: translateY(0px);
+      0%, 100% {
+        transform: translateY(0);
       }
 
       50% {
-        transform: translateY(-1px);
+        transform: translateY(-0.8px);
       }
-
     }
 
-    /* =====================================================
-       CURSOR BLINK
-       ===================================================== */
-
     @keyframes cursorBlink {
-
-      0%,
-      45% {
+      0%, 45% {
         opacity: 1;
       }
 
-      46%,
-      100% {
+      46%, 100% {
         opacity: 0;
       }
-
     }
-
-    /* =====================================================
-       SUBTLE CRT FLICKER
-       ===================================================== */
-
-    .screen-flicker {
-      opacity: 0;
-      animation: screenFlicker 7s infinite;
-    }
-
-    @keyframes screenFlicker {
-
-      0%,
-      91%,
-      94%,
-      100% {
-        opacity: 0;
-      }
-
-      92% {
-        opacity: 0.025;
-      }
-
-      93% {
-        opacity: 0.01;
-      }
-
-    }
-
   </style>
 
 
   <!-- =====================================================
-       TERMINAL WINDOW
+       LEFT TERMINAL
        ===================================================== -->
 
   <rect
     x="1"
     y="1"
-    width="1198"
-    height="298"
+    width="760"
+    height="338"
     rx="12"
     class="terminal"
   />
 
-
-  <!-- =====================================================
-       TERMINAL TOP BAR
-       ===================================================== -->
-
   <rect
     x="2"
     y="2"
-    width="1196"
+    width="758"
     height="38"
     rx="11"
     class="topbar"
   />
 
-
-  <!-- =====================================================
-       MAC TERMINAL BUTTONS
-       ===================================================== -->
-
-  <circle
-    cx="25"
-    cy="21"
-    r="6"
-    fill="#ff5f56"
-  />
-
-  <circle
-    cx="45"
-    cy="21"
-    r="6"
-    fill="#ffbd2e"
-  />
-
-  <circle
-    cx="65"
-    cy="21"
-    r="6"
-    fill="#27c93f"
-  />
-
-
-  <!-- =====================================================
-       TERMINAL TITLE
-       ===================================================== -->
+  <circle cx="25" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="45" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="65" cy="21" r="6" fill="#27c93f"/>
 
   <text
-    x="600"
+    x="380"
     y="26"
     text-anchor="middle"
     font-family="Fira Code, JetBrains Mono, monospace"
@@ -288,41 +178,23 @@
   </text>
 
 
-  <!-- =====================================================
-       WHOAMI COMMAND
-       ===================================================== -->
+  <!-- LEFT COMMAND -->
 
-  <g transform="translate(28 64)">
+  <g transform="translate(25 68)">
 
-    <text
-      class="prompt"
-      x="0"
-      y="0"
-    >Ryson-Theo@github</text>
+    <text class="prompt" x="0" y="0">
+      Ryson-Theo@github
+    </text>
 
-    <text
-      class="path"
-      x="166"
-      y="0"
-    >:~ $</text>
+    <text class="path" x="166" y="0">
+      :~ $
+    </text>
 
-    <text
-      class="command"
-      x="215"
-      y="0"
-    >whoami</text>
+    <text class="command" x="215" y="0">
+      whoami
+    </text>
 
   </g>
-
-
-  <!-- =====================================================
-       EXTRA SPACE ABOVE ASCII NAME
-       ===================================================== -->
-
-  <!--
-       The name intentionally starts lower than the
-       command line to create a terminal-like output gap.
-  -->
 
 
   <!-- =====================================================
@@ -330,76 +202,39 @@
        ===================================================== -->
 
   <g
-    transform="translate(28 94)"
+    transform="translate(25 94)"
     xml:space="preserve"
   >
 
-    <text
-      class="ascii"
-      x="0"
-      y="0"
-    >▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀      ▀ ▀▀ ┐ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀      ▀ ▀▀ ┐ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ┐         ▀ ▀▀ ┐         ▀ ▀▀ ┐      ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀         ▀ ▀▀ ▀▀ ▀▀ ▀▀  ┐   ▀ ▀▀ ┐        ▀▀ ▀ ┐</text>
+    <text class="ascii" x="0" y="0">▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀      ▀ ▀▀ ┐ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀      ▀ ▀▀ ┐ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ┐         ▀ ▀▀ ┐         ▀ ▀▀ ┐      ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀         ▀ ▀▀ ▀▀ ▀▀ ▀▀  ┐   ▀ ▀▀ ┐        ▀▀ ▀ ┐</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="10"
-    >▄ █▄ ▀▀ ▀▀ ▀▀ █▄ █▄ ┐ █ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄   █ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄ ┐      ▀ █▀░│         ▀ █▀░│      ▄ █▄ ▀▀ ▀▀ ▀▀ █▄ █▄ ┐ ▄ █▀ █▀ ▀▀ ▀▀ █▀ █▄ ┐ ▀ █▀░│        █▀ ▀░│</text>
+    <text class="ascii" x="0" y="10">▄ █▄ ▀▀ ▀▀ ▀▀ █▄ █▄ ┐ █ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄   █ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄ ┐      ▀ █▀░│         ▀ █▀░│      ▄ █▄ ▀▀ ▀▀ ▀▀ █▄ █▄ ┐ ▄ █▀ █▀ ▀▀ ▀▀ █▀ █▄ ┐ ▀ █▀░│        █▀ ▀░│</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="20"
-    >▄ ▄▄░┌───────  ▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░└───────  ▄ ▄▄ ┐ ▄ ▄▄░│ ▄ ▄▄░┌──────── ▄ ▄▄░│      ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌───────  ▄ ▄▄░│ ▄ ▄▄ ░┌──────  ▄ ▄▄░│ ▄ ▄▄ ▄        ▄▄ ▄░│</text>
+    <text class="ascii" x="0" y="20">▄ ▄▄░┌───────  ▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░└───────  ▄ ▄▄ ┐ ▄ ▄▄░│ ▄ ▄▄░┌──────── ▄ ▄▄░│      ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌───────  ▄ ▄▄░│ ▄ ▄▄ ░┌──────  ▄ ▄▄░│ ▄ ▄▄ ▄        ▄▄ ▄░│</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="30"
-    >▀ ▀▀ └        ▀▀ ▀▀░│ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌┘ ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀ └      ▀ ▀▀ ▀ ┌┘      ▀ ▀▀ └        ▀▀ ▀▀░│ ▀ ▀▀ ░│        ▀ ▀▀░│   ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░│</text>
+    <text class="ascii" x="0" y="30">▀ ▀▀ └        ▀▀ ▀▀░│ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌┘ ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀ └      ▀ ▀▀ ▀ ┌┘      ▀ ▀▀ └        ▀▀ ▀▀░│ ▀ ▀▀ ░│        ▀ ▀▀░│   ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░│</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="40"
-    >▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄└┐ ▀ █▀░│ ▀ █▀░│         ▀ █▀░│      ▀ █▀ █▀ █▀ █▀ █▀ ▀░│       ▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀ ░│        ▀ █▀░│  └ ▀ ▀▀ ▀▀ ▀▀ █▀ ▀░│</text>
+    <text class="ascii" x="0" y="40">▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄└┐ ▀ █▀░│ ▀ █▀░│         ▀ █▀░│      ▀ █▀ █▀ █▀ █▀ █▀ ▀░│       ▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀ ░│        ▀ █▀░│  └ ▀ ▀▀ ▀▀ ▀▀ █▀ ▀░│</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="50"
-    >▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄░│ ▄ ▄▄░└─────── ▄▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌─────── ▄▄ ▄ └┐      ▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄ ▄ ┐      ▄▄ ▄▄░│     └────── ▄ ▄▄ ▄░│</text>
+    <text class="ascii" x="0" y="50">▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄░│ ▄ ▄▄░└─────── ▄▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌─────── ▄▄ ▄ └┐      ▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄ ▄ ┐      ▄▄ ▄▄░│     └────── ▄ ▄▄ ▄░│</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="60"
-    >▀ ▀ ░│      ▀ ▀▀ ▀░└┐ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌┘ ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀ ░│      ▀ ▀▀ ▀░└┐   ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ░┌─┘ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀ ░ ░│</text>
+    <text class="ascii" x="0" y="60">▀ ▀ ░│      ▀ ▀▀ ▀░└┐ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌┘ ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀ ░│      ▀ ▀▀ ▀░└┐   ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ░┌─┘ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀ ░ ░│</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="70"
-    >▀ ▀▀░│        ▀▀ ▀▀░│ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀░┌─┘  ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│        ▀▀ ▀▀░│  └ ▀ ▀▀ ▀▀ ▀▀ ▀░┌─┘   ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌──┘</text>
+    <text class="ascii" x="0" y="70">▀ ▀▀░│        ▀▀ ▀▀░│ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀░┌─┘  ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│        ▀▀ ▀▀░│  └ ▀ ▀▀ ▀▀ ▀▀ ▀░┌─┘   ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌──┘</text>
 
-    <text
-      class="ascii"
-      x="0"
-      y="80"
-    >  └──┘          └───┘  └───┘   └──────────────┘     └───┘   └──┘           └──┘        └──┘          └───┘        └──┘          └───┘     └───────────┘       └─────────────┘</text>
+    <text class="ascii" x="0" y="80">  └──┘          └───┘  └───┘   └──────────────┘     └───┘   └──┘           └──┘        └──┘          └───┘        └──┘          └───┘     └───────────┘       └─────────────┘</text>
 
   </g>
 
 
   <!-- =====================================================
-       ONE-LINE PROFILE DESCRIPTION
-       DIRECTLY BELOW ASCII NAME
+       LEFT TERMINAL DESCRIPTION
        ===================================================== -->
 
   <text
     class="description"
-    x="600"
-    y="193"
+    x="380"
+    y="202"
     text-anchor="middle"
   >
     <tspan class="description-accent">AI/ML Integration</tspan>
@@ -407,30 +242,32 @@
     <tspan class="description-accent">Scalable APIs</tspan>
     <tspan fill="#484f58"> · </tspan>
     <tspan class="description-accent">Intelligent Systems</tspan>
-    <tspan fill="#484f58"> — </tspan>
-    <tspan>Specializing in AI/ML integration, scalable APIs, and intelligent systems across stacks.</tspan>
+  </text>
+
+  <text
+    class="muted"
+    x="380"
+    y="220"
+    text-anchor="middle"
+    font-family="Fira Code, JetBrains Mono, Consolas, monospace"
+    font-size="10.5"
+  >
+    Building scalable, production-ready systems across stacks.
   </text>
 
 
-  <!-- =====================================================
-       EMPTY TERMINAL SHELL
-       ===================================================== -->
+  <!-- LEFT EMPTY SHELL -->
 
-  <g transform="translate(28 252)">
+  <g transform="translate(25 310)">
 
-    <text
-      class="prompt"
-      x="0"
-      y="0"
-    >Ryson-Theo@github</text>
+    <text class="prompt" x="0" y="0">
+      Ryson-Theo@github
+    </text>
 
-    <text
-      class="path"
-      x="166"
-      y="0"
-    >:~ $</text>
+    <text class="path" x="166" y="0">
+      :~ $
+    </text>
 
-    <!-- Empty command line -->
     <rect
       class="cursor"
       x="215"
@@ -444,18 +281,163 @@
 
 
   <!-- =====================================================
-       SUBTLE CRT SCREEN FLICKER
+       RIGHT TERMINAL
        ===================================================== -->
 
   <rect
-    x="2"
-    y="2"
-    width="1196"
-    height="296"
-    rx="11"
-    fill="#58a6ff"
-    class="screen-flicker"
-    pointer-events="none"
+    x="775"
+    y="1"
+    width="424"
+    height="338"
+    rx="12"
+    class="terminal"
   />
+
+  <rect
+    x="776"
+    y="2"
+    width="422"
+    height="38"
+    rx="11"
+    class="topbar"
+  />
+
+  <circle cx="799" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="819" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="839" cy="21" r="6" fill="#27c93f"/>
+
+  <text
+    x="987"
+    y="26"
+    text-anchor="middle"
+    font-family="Fira Code, JetBrains Mono, monospace"
+    font-size="11"
+    fill="#484f58"
+  >
+    profile — bash
+  </text>
+
+
+  <!-- RIGHT COMMAND -->
+
+  <g transform="translate(797 68)">
+
+    <text class="prompt" x="0" y="0">
+      Ryson-Theo@github
+    </text>
+
+    <text class="path" x="166" y="0">
+      :~ $
+    </text>
+
+    <text class="command" x="215" y="0">
+      cat profile.txt
+    </text>
+
+  </g>
+
+
+  <!-- RIGHT PROFILE -->
+
+  <g transform="translate(797 94)">
+
+    <text class="header" x="0" y="0">
+      [professional profile]
+    </text>
+
+    <text class="body" x="0" y="25">
+      <tspan class="accent">Role:</tspan>
+      Full-Stack Developer
+    </text>
+
+    <text class="body" x="0" y="45">
+      <tspan class="accent">Focus:</tspan>
+      Backend • APIs • System Design
+    </text>
+
+    <text class="body" x="0" y="65">
+      <tspan class="accent">AI/ML:</tspan>
+      Python • TensorFlow • OpenCV
+    </text>
+
+    <text class="body" x="0" y="85">
+      <tspan class="accent">Data:</tspan>
+      PostgreSQL • MongoDB • MySQL
+    </text>
+
+    <text class="body" x="0" y="105">
+      <tspan class="accent">Cloud:</tspan>
+      Docker • Vercel • Cloudflare
+    </text>
+
+  </g>
+
+
+  <!-- RIGHT COMMAND 2 -->
+
+  <g transform="translate(797 225)">
+
+    <text class="prompt" x="0" y="0">
+      Ryson-Theo@github
+    </text>
+
+    <text class="path" x="166" y="0">
+      :~ $
+    </text>
+
+    <text class="command" x="215" y="0">
+      status
+    </text>
+
+  </g>
+
+
+  <!-- RIGHT STATUS -->
+
+  <g transform="translate(797 250)">
+
+    <circle cx="5" cy="-4" r="3" fill="#3fb950"/>
+
+    <text
+      class="body"
+      x="16"
+      y="0"
+    >
+      open to collaborations &amp; opportunities
+    </text>
+
+    <text
+      class="muted"
+      x="16"
+      y="20"
+    >
+      BCA Graduate • MG University, Kottayam
+    </text>
+
+  </g>
+
+
+  <!-- RIGHT EMPTY SHELL -->
+
+  <g transform="translate(797 310)">
+
+    <text class="prompt" x="0" y="0">
+      Ryson-Theo@github
+    </text>
+
+    <text class="path" x="166" y="0">
+      :~ $
+    </text>
+
+    <rect
+      class="cursor"
+      x="215"
+      y="-13"
+      width="8"
+      height="16"
+      rx="1"
+    />
+
+  </g>
 
 </svg>
