@@ -216,7 +216,7 @@
 
     <text class="ascii" x="0" y="40">▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀░│ ▀ █▀ ▀▀ ▀▀ ▀▀ █▀ █▄└┐ ▀ █▀░│ ▀ █▀░│         ▀ █▀░│      ▀ █▀ █▀ █▀ █▀ █▀ ▀░│       ▄ █▄ █▄ █▄ █▄ █▀ ▀┌─┘ ▀ █▀ ░│        ▀ █▀░│  └ ▀ ▀▀ ▀▀ ▀▀ █▀ ▀░│</text>
 
-    <text class="ascii" x="0" y="50">▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄░│ ▄ ▄▄░└─────── ▄▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌─────── ▄▄ ▄ └┐      ▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄ ▄ ┐      ▄▄ ▄▄░│     └────── ▄ ▄▄ ▄░│</text>
+    <text class="ascii" x="0" y="50">▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄░│ ▄ ▄▄░└─────── ▄▄ ▄▄░│ ▄ ▄▄░│ ▄ ▄▄░│         ▄ ▄▄░│      ▄ ▄▄░┌─────── ▄ ▄ └┐      ▄ ▄▄░┌──── ▄▄ ▄▄ ░└┐  ▄ ▄▄ ▄ ┐      ▄▄ ▄▄░│     └────── ▄ ▄▄ ▄░│</text>
 
     <text class="ascii" x="0" y="60">▀ ▀ ░│      ▀ ▀▀ ▀░└┐ ▀ ▀▀░│ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀░┌┘ ▀ ▀▀░│ ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀▀░│         ▀ ▀▀░│      ▀ ▀ ░│      ▀ ▀▀ ▀░└┐   ▀▀ ▀▀ ▀▀ ▀▀ ▀▀ ░┌─┘ ▀ ▀▀ ▀▀ ▀▀ ▀▀ ▀ ░ ░│</text>
 
@@ -237,11 +237,11 @@
     y="202"
     text-anchor="middle"
   >
-    <tspan class="description-accent">AI/ML Integration</tspan>
+    <tspan class="description-accent">Brand &amp; Product Design</tspan>
     <tspan fill="#484f58"> · </tspan>
-    <tspan class="description-accent">Scalable APIs</tspan>
+    <tspan class="description-accent">Full-Stack Development</tspan>
     <tspan fill="#484f58"> · </tspan>
-    <tspan class="description-accent">Intelligent Systems</tspan>
+    <tspan class="description-accent">AI/ML Engineering</tspan>
   </text>
 
   <text
@@ -252,7 +252,7 @@
     font-family="Fira Code, JetBrains Mono, Consolas, monospace"
     font-size="10.5"
   >
-    Building scalable, production-ready systems across stacks.
+    Designing and building complete digital experiences across brand, product, software, and AI.
   </text>
 
 
@@ -347,27 +347,27 @@
 
     <text class="body" x="0" y="25">
       <tspan class="accent">Role:</tspan>
-      Full-Stack Developer
+      Brand &amp; Product Designer
     </text>
 
     <text class="body" x="0" y="45">
-      <tspan class="accent">Focus:</tspan>
-      Backend • APIs • System Design
+      <tspan class="accent">Build:</tspan>
+      Full-Stack Development
     </text>
 
     <text class="body" x="0" y="65">
       <tspan class="accent">AI/ML:</tspan>
-      Python • TensorFlow • OpenCV
+      AI/ML Engineering
     </text>
 
     <text class="body" x="0" y="85">
-      <tspan class="accent">Data:</tspan>
-      PostgreSQL • MongoDB • MySQL
+      <tspan class="accent">Design:</tspan>
+      Brand Identity • Product UI • Systems
     </text>
 
     <text class="body" x="0" y="105">
-      <tspan class="accent">Cloud:</tspan>
-      Docker • Vercel • Cloudflare
+      <tspan class="accent">Engineering:</tspan>
+      Frontend • Backend • APIs
     </text>
 
   </g>
@@ -403,7 +403,7 @@
       x="16"
       y="0"
     >
-      open to collaborations &amp; opportunities
+      open to freelance projects &amp; collaborations
     </text>
 
     <text
