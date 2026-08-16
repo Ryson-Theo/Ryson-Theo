@@ -1,29 +1,36 @@
 <div align="center">
-  <div align="center">
-
+  
+<div align="center">
 <img
   src="./assets/ryson-theo-terminal.svg"
   width="100%"
-  alt="Ryson-Theo GitHub terminal banner"
+  alt="Ribin K Roy —  Brand & Product Designer, Full-Stack Developer, and AI/ML Engineer"
 />
+ 
+  ###  BRAND & PRODUCT DESIGNER • FULL-STACK DEVELOPER • AI/ML ENGINEER
 
+  > Designing and building complete digital experiences — from brand identity and product design to full-stack applications and AI-powered solutions.
 </div>
-
-  ### Full-Stack Developer (MERN) | Backend & Systems Learner | Exploring AI/ML
-
-  > Building scalable APIs and production-ready systems with MERN. Expanding into Python, ML, and cloud infrastructure.
-
   &nbsp;
 
-  <div align="center">
-    <img src="https://img.shields.io/badge/Full--Stack_Developer-MERN-22C55E?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Backend-Node.js_•_Laravel_•_Django-3B82F6?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Databases-MySQL_•_PostgreSQL_•_MongoDB-8B5CF6?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Learning-AI/ML_•_Cloud_•_DevOps-F97316?style=for-the-badge" />
-    <a href="https://g.dev/ribinkroy" target="_blank">
-  <img src="https://img.shields.io/badge/Google_Dev_Program-Member-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Developer Program Profile" />
-</a>
-  </div>
+ <div align="center">
+
+  <img src="https://img.shields.io/badge/Brand_%26_Product_Design-8B5CF6?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Full--Stack_Development-22C55E?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/AI_%26_ML_Engineering-F97316?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Cloud_%26_DevOps-3B82F6?style=for-the-badge" />
+
+  <a href="https://g.dev/ribinkroy" target="_blank">
+    <img
+      src="https://img.shields.io/badge/Google_Developer_Program-Member-4285F4?style=for-the-badge&logo=google&logoColor=white"
+      alt="Google Developer Program Member"
+    />
+  </a>
+
+</div>
 
   &nbsp;
 
