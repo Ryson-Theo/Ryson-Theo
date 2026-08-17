@@ -142,11 +142,16 @@ Exploring practical AI/ML applications through data pipelines, computer vision, 
 
 ## Tech Stack
 
-- **Frontend:** &nbsp; React • JavaScript • Tailwind CSS
-- **Backend:** &nbsp; Node.js • Express.js • PHP
-- **Databases:** &nbsp; MongoDB • MySQL
-- **DevOps & Tools:** &nbsp; Git • Docker
-- **Data & AI:** &nbsp; Python • OpenCV • TensorFlow *(Prototyping)*
+**Build:** React • Next.js • Node.js • Express • PHP  
+**Data:** PostgreSQL • MySQL • MongoDB • Supabase • Redis  
+**AI & Infrastructure:** Python • OpenCV • TensorFlow • Docker • Vercel • Cloudflare
+<p align="center">
+  <img
+    src="./assets/tech-stack-animation.svg"
+    width="150"
+    alt="Software architecture animation"
+  />
+</p>
 
 ---
 ## Articles
