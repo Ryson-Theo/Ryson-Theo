@@ -73,33 +73,52 @@ My approach is straightforward: understand the problem, make thoughtful decision
 
 ---
 
-
-
 ## Core Engineering Focus
 
-### Backend & System Design
-*   **Focus:** Scalable API architecture and data integrity.
-*   **Tech Stack:** Node.js, Express, MongoDB (MERN), PHP, MySQL, PostgreSQL.
-*   **Key Builds:** 
-    *   Designed secure REST APIs with JWT auth and RBAC for MERN applications.
-    *   Engineered normalized MySQL schemas for complex PHP data relationships.
-    *   Currently architecting PostgreSQL implementations to optimize for ACID compliance and complex joins.
+<table
+  width="100%"
+  style="border-collapse:collapse; border-spacing:0;"
+>
+  <tr>
+    <td width="72%" valign="top">
 
-### Frontend & UX Engineering
-*   **Focus:** Responsive, maintainable component systems.
-*   **Tech Stack:** React, Context API, Modern CSS, i18n.
-*   **Key Builds:** 
-    *   Developed reusable component libraries to standardize UI across projects.
-    *   Implemented mobile-first responsive layouts with multi-language (i18n) support.
-    *   Optimized rendering performance through efficient state management and lazy loading.
+**Backend &amp; System Design**  
+Building production-ready web applications, REST APIs, authentication, business logic, and reliable data systems with a focus on scalability, security, and maintainability.  
+`API Development` · `Backend Architecture` · `RBAC` · `Database Design`
 
-### AI & Data Engineering (Active Development)
-*   **Focus:** Bridging full-stack logic with data automation and computer vision.
-*   **Tech Stack:** Python, OpenCV, TensorFlow, Docker.
-*   **Current Work:** 
-    *   Building custom data pipelines to automate image preprocessing and vectorization.
-    *   Developing new prototypes to integrate ML inference into web workflows.
-    *   Experimenting with containerized deployment for reproducible AI environments.
+**Frontend &amp; Product Engineering**  
+Turning product ideas and UI/UX designs into responsive, accessible, and maintainable web experiences with attention to usability, performance, and clean component architecture.  
+`React` · `JavaScript` · `UI/UX` · `Design Systems`
+
+**AI, ML &amp; Data Engineering**  
+Exploring practical AI/ML applications through data pipelines, computer vision, model integration, and automation — connecting intelligent capabilities with real-world software.  
+`Python` · `Machine Learning` · `Computer Vision` · `Data Pipelines`
+
+   </td>
+
+ <td
+      width="28%"
+      valign="top"
+      style="padding:0 !important; margin:0; line-height:0; overflow:hidden;"
+    >
+      <img
+        src="https://media.giphy.com/media/l3978y5HqiEtqupiM/giphy.gif"
+        alt="Software development and engineering animation"
+        style="
+          display:block;
+          width:calc(100% + 12px);
+          max-width:none;
+          height:335px;
+          object-fit:cover;
+          margin:-6px;
+          padding:0;
+          border:0;
+        "
+      />
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## Featured Projects
