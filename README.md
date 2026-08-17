@@ -145,13 +145,6 @@ Exploring practical AI/ML applications through data pipelines, computer vision, 
 **Build:** React • Next.js • Node.js • Express • PHP  
 **Data:** PostgreSQL • MySQL • MongoDB • Supabase • Redis  
 **AI & Infrastructure:** Python • OpenCV • TensorFlow • Docker • Vercel • Cloudflare
-<p align="center">
-  <img
-    src="./assets/tech-stack-animation.svg"
-    width="150"
-    alt="Software architecture animation"
-  />
-</p>
 
 ---
 ## Articles
@@ -239,9 +232,12 @@ practical technology**.
 
 ## Open Source & Collaboration
 
-- Participated in Hacktoberfest and contributed to open-source projects.
-- Earned multiple community contribution badges through Holopin.
-- Co-developed **RemoteTeamPro** as a team-based university project, collaborating on feature development, testing, and system integration.
+I enjoy working on projects where design, engineering, and problem-solving come together.
+
+* Contributed to open-source projects through Hacktoberfest.
+* Earned community contribution badges through Holopin.
+* Co-developed **RemoteTeamPro**, a team-based university project focused on remote workforce management.
+* Experiment with new technologies through independent projects, prototypes, and technical research.
 
 <p align="center">
   <a href="https://holopin.io/@ribinkroy">
@@ -251,32 +247,89 @@ practical technology**.
 
 ---
 
-## Current Focus
+## What I'm Working On
 
-- **Building:** Python data pipelines and PostgreSQL-based systems
-- **Learning:** Docker, CI/CD, and ML inference patterns
-- **Goal:** Cloud-native backend engineering with AI integration
-- **Open To:** Full-time roles, internships, and collaborative projects
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+
+### Backend & Systems
+
+Designing reliable backend architectures, REST APIs, database systems, authentication flows, and scalable application foundations.
+
+`Node.js` · `Express` · `PostgreSQL` · `MongoDB` · `Redis`
+
+</td>
+
+<td width="50%" valign="top">
+
+### Product & Interfaces
+
+Building polished digital products where interaction design, visual systems, and engineering work together.
+
+`React` · `Next.js` · `TypeScript` · `Figma` · `UI/UX`
+
+</td>
+  </tr>
+</table>
 
 ---
 
-## Collaboration & Work Style
+## Currently Exploring
 
-* Prefer async communication, clear documentation, and well-defined responsibilities.
-* Enjoy building backend systems and full-stack applications through iterative development.
-* Value clean, maintainable code and continuous learning through collaboration and feedback.
+* **Systems:** Backend architecture, API design, database optimization, and distributed systems
+* **Infrastructure:** Docker, CI/CD, cloud deployment, and developer tooling
+* **Intelligence:** Practical AI/ML integration, computer vision, and data-driven applications
+* **Design:** Product systems, interaction design, and high-quality digital experiences
+
+---
+
+## Beyond the Code
+
+I care about the details that sit between design and engineering.
+
+That means thinking about **how something looks, how it feels, how it works, and how it scales** — not treating those as separate problems.
+
+My projects are usually an opportunity to explore that intersection: defining the product, designing the experience, building the system, and refining the details until everything feels intentional.
 
 ---
 
 ## Get in Touch
 
-<div align="center">
-  <a href="mailto:rysontheo@proton.me">Email</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  
-  <a href="https://www.linkedin.com/in/ribin-k-roy/">LinkedIn</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-  <a href="https://github.com/Ryson-Theo">GitHub</a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; 
-  <a href="https://linktr.ee/ryson_theo">Portfolio</a>
-</div>
+<p align="center">
+  <a href="https://ribin-portfolio.vercel.app/">
+    <img
+      src="https://img.shields.io/badge/Portfolio-View_Work-8B5CF6?style=for-the-badge&logo=briefcase&logoColor=white"
+      alt="Portfolio"
+    />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/ribin-k-roy/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>
+  &nbsp;
+  <a href="mailto:ribinkroy.dev@gmail.com">
+    <img
+      src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+      alt="Email"
+    />
+  </a>
+</p>
 
-<div align="center">
-  <img src="./assets/footer-banner.jpg" alt="Footer Banner" width="100%" />
-</div>
+<p align="center">
+  <sub>
+    Open to full-time opportunities, internships, freelance work, and meaningful collaborations.
+  </sub>
+</p>
+
+<p align="center">
+  <img
+    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODRjd2o2cHJlYTR4cnlxaGh6aHJmMms1eXU0ZWxlanU1dTludnR1YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j3OL6mSc2FeV0UHMDg/giphy.gif"
+    width="100%"
+    height="140"
+    alt="Animated technology visual"
+  />
+</p>
