@@ -323,11 +323,11 @@ My projects are usually an opportunity to explore that intersection: defining th
     Open to full-time opportunities, internships, freelance work, and meaningful collaborations.
   </sub>
 </p>
-
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODRjd2o2cHJlYTR4cnlxaGh6aHJmMms1eXU0ZWxlanU1dTludnR1YyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/j3OL6mSc2FeV0UHMDg/giphy.gif"
+  <img
+    src="https://media.giphy.com/media/hq7O4BvUNmjLicWaST/giphy.gif"
     width="100%"
-    height="140"
+      height="170"
     alt="Animated technology visual"
   />
 </p>
