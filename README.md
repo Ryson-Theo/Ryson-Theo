@@ -91,7 +91,7 @@ Turning product ideas and UI/UX designs into responsive, accessible, and maintai
 `React` · `JavaScript` · `UI/UX` · `Design Systems`
 
 **AI, ML &amp; Data Engineering**  
-Exploring practical AI/ML applications through data pipelines, computer vision, model integration, and automation — connecting intelligent capabilities with real-world software.  
+Exploring practical AI/ML applications through data pipelines, computer vision, model integration, and automation - connecting intelligent capabilities with real-world software.  
 `Python` · `Machine Learning` · `Computer Vision` · `Data Pipelines`
 
    </td>
