@@ -7,7 +7,7 @@
  
   ###  BRAND & PRODUCT DESIGNER • FULL-STACK DEVELOPER • AI/ML ENGINEER
 
-  > Designing and building complete digital experiences — from brand identity and product design to full-stack applications and AI-powered solutions.
+  > Designing and building complete digital experiences — from brand identity and product design to full-stack applications and practical AI/ML solutions.
 </div>
   &nbsp;
 
@@ -90,7 +90,7 @@ Turning product ideas and UI/UX designs into responsive, accessible, and maintai
 `React` · `JavaScript` · `UI/UX` · `Design Systems`
 
 **AI, ML &amp; Data Engineering**  
-Exploring practical AI/ML applications through data pipelines, computer vision, model integration, and automation - connecting intelligent capabilities with real-world software.  
+Building and implementing practical AI/ML solutions through data pipelines, computer vision, model integration, and automation — connecting intelligent capabilities with real-world software.
 `Python` · `Machine Learning` · `Computer Vision` · `Data Pipelines`
 
    </td>
@@ -143,9 +143,11 @@ Exploring practical AI/ML applications through data pipelines, computer vision, 
 
 **Build:** React • Next.js • Node.js • Express • PHP  
 **Data:** PostgreSQL • MySQL • MongoDB • Supabase • Redis  
-**AI & Infrastructure:** Python • OpenCV • TensorFlow • Docker • Vercel • Cloudflare
+**AI & ML:** Python • TensorFlow • OpenCV • Scikit-learn • Computer Vision    
+**Infrastructure:** Docker • Vercel • Cloudflare
 
 ---
+
 ## Articles
 
 I write about what I build, design, and learn along the way — from
@@ -250,23 +252,33 @@ I enjoy working on projects where design, engineering, and problem-solving come 
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
 
-### Backend & Systems
+### AI & ML
 
-Designing reliable backend architectures, REST APIs, database systems, authentication flows, and scalable application foundations.
+Building practical AI/ML projects involving model development, computer vision, data processing, and intelligent application features.
 
-`Node.js` · `Express` · `PostgreSQL` · `MongoDB` · `Redis`
+`Python` · `TensorFlow` · `OpenCV`
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
+
+### Backend & Systems
+
+Designing reliable APIs, database systems, authentication flows, and scalable backend architectures.
+
+`Node.js` · `Express` · `PostgreSQL`
+
+</td>
+
+<td width="33%" valign="top">
 
 ### Product & Interfaces
 
 Building polished digital products where interaction design, visual systems, and engineering work together.
 
-`React` · `Next.js` · `TypeScript` · `Figma` · `UI/UX`
+`React` · `Next.js` · `TypeScript`
 
 </td>
   </tr>
@@ -274,22 +286,11 @@ Building polished digital products where interaction design, visual systems, and
 
 ---
 
-## Currently Exploring
-
-* **Systems:** Backend architecture, API design, database optimization, and distributed systems
-* **Infrastructure:** Docker, CI/CD, cloud deployment, and developer tooling
-* **Intelligence:** Practical AI/ML integration, computer vision, and data-driven applications
-* **Design:** Product systems, interaction design, and high-quality digital experiences
-
----
-
 ## Beyond the Code
 
-I care about the details that sit between design and engineering.
+For me, it’s always about the full experience — how something looks, how it feels to use, how it works under the hood, and how well it performs in real situations. I don’t treat design and engineering as separate steps; they naturally inform and improve each other as I build.
 
-That means thinking about **how something looks, how it feels, how it works, and how it scales** — not treating those as separate problems.
-
-My projects are usually an opportunity to explore that intersection: defining the product, designing the experience, building the system, and refining the details until everything feels intentional.
+From understanding the problem and shaping the experience, to building the system and refining the details, I focus on creating products that feel intentional, practical, and built to last.
 
 ---
 
@@ -310,7 +311,7 @@ My projects are usually an opportunity to explore that intersection: defining th
     />
   </a>
   &nbsp;
-  <a href="mailto:ribinkroy.dev@gmail.com">
+  <a href="mailto:ribinkroy@protonmail.com">
     <img
       src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Email"
