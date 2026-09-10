@@ -7,7 +7,7 @@
  
   ###  BRAND & PRODUCT DESIGNER • FULL-STACK DEVELOPER • AI/ML ENGINEER
 
-  > Designing and building complete digital experiences — from brand identity and product design to full-stack applications and practical AI/ML solutions.
+  > Designing and building complete digital experiences  from brand identity and product design to full-stack applications and practical AI/ML solutions.
 </div>
   &nbsp;
 
