@@ -126,15 +126,23 @@ Building and implementing practical AI/ML solutions through data pipelines, comp
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Ryson-Theo/Kazedesk" target="_blank">
+        <img src="./kazedesk-animated-card.svg" alt="Kazedesk Project Card" width="100%" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Ryson-Theo/CropVector" target="_blank">
         <img src="./cropvector-card.svg" alt="CropVector Project Card" width="100%" />
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Ryson-Theo/RemoteTeamPro" target="_blank">
         <img src="./remoteteampro-card.svg" alt="RemoteTeamPro Project Card" width="100%" />
       </a>
     </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
