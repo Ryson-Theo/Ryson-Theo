@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" viewBox="0 0 720 240" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Kazedesk — Focus, without the noise</title>
+  <desc id="desc">An animated dark sage-green project card showing Kazedesk's focus timer, tasks, notes, and music workspace.</desc>
+
+  <defs>
+    <linearGradient id="cardGlow" x1="35" y1="10" x2="690" y2="235" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18221C"/>
+      <stop offset=".55" stop-color="#111614"/>
+      <stop offset="1" stop-color="#0C100E"/>
+    </linearGradient>
+    <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D5E8CB"/>
+      <stop offset="1" stop-color="#8EB78B"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="474" y1="65" x2="546" y2="137" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5E8CB"/>
+      <stop offset="1" stop-color="#7DAA7A"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r=".6" fill="#D5E8CB" opacity=".12"/>
+    </pattern>
+  </defs>
+
+  <!-- Card surface -->
+  <rect x="1" y="1" width="718" height="238" rx="22" fill="url(#cardGlow)" stroke="#2B382E" stroke-width="1.2"/>
+  <rect x="2" y="2" width="716" height="236" rx="21" fill="url(#grain)" opacity=".28"/>
+  <path d="M28 2H692" stroke="#D5E8CB" stroke-opacity=".16" stroke-linecap="round"/>
+
+  <!-- Ambient sage glow -->
+  <circle cx="593" cy="104" r="72" fill="#B6D2AD" opacity=".055" filter="url(#softGlow)">
+    <animate attributeName="opacity" values=".035;.09;.035" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- App mark -->
+  <rect x="28" y="30" width="68" height="68" rx="19" fill="#1A251D" stroke="#3B4C3D"/>
+  <rect x="34" y="36" width="56" height="56" rx="15" fill="#202E23"/>
+  <g transform="translate(62 64)">
+    <circle r="20" stroke="#405543" stroke-width="1.5" stroke-dasharray="2 5"/>
+    <circle r="15.5" stroke="#B6D2AD" stroke-opacity=".2" stroke-width="3"/>
+    <circle r="15.5" stroke="url(#sage)" stroke-width="3" stroke-linecap="round" stroke-dasharray="67 98" transform="rotate(-90)">
+      <animate attributeName="stroke-dasharray" values="58 98;72 98;58 98" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M0 -8V1L6 5" stroke="#E2EEDD" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cy="1" r="2" fill="#E2EEDD"/>
+  </g>
+
+  <!-- Project title and badge -->
+  <text x="116" y="53" fill="#E7EFE4" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="27" font-weight="750" letter-spacing="-0.8">Kazedesk</text>
+  <g transform="translate(250 33)">
+    <rect width="100" height="24" rx="12" fill="#B6D2AD" fill-opacity=".10" stroke="#779B76" stroke-opacity=".65"/>
+    <circle cx="13" cy="12" r="3" fill="#B6D2AD">
+      <animate attributeName="opacity" values="1;.45;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="23" y="16" fill="#C9DFC1" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing=".45">LOCAL-FIRST</text>
+  </g>
+
+  <!-- Description -->
+  <text x="116" y="84" fill="#B9C5B8" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="15.5">Focus, tasks, notes and music —</text>
+  <text x="116" y="106" fill="#B9C5B8" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="15.5">together in one calm workspace.</text>
+
+  <!-- Compact feature chips -->
+  <g font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="11.5" font-weight="550">
+    <rect x="116" y="128" width="91" height="27" rx="8" fill="#1B261E" stroke="#344436"/>
+    <circle cx="129" cy="141.5" r="3" fill="#B6D2AD"/>
+    <text x="138" y="145.5" fill="#D0DDCC">Focus timer</text>
+
+    <rect x="215" y="128" width="68" height="27" rx="8" fill="#1B261E" stroke="#344436"/>
+    <path d="M226 138.5l3 3 5-6" stroke="#B6D2AD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="239" y="145.5" fill="#D0DDCC">Tasks</text>
+
+    <rect x="291" y="128" width="66" height="27" rx="8" fill="#1B261E" stroke="#344436"/>
+    <path d="M302 137h9M302 141h9M302 145h6" stroke="#B6D2AD" stroke-width="1.3" stroke-linecap="round"/>
+    <text x="316" y="145.5" fill="#D0DDCC">Notes</text>
+  </g>
+
+  <!-- Footer metadata -->
+  <path d="M116 177H357" stroke="#334035"/>
+  <circle cx="122" cy="197" r="3" fill="#B6D2AD"/>
+  <text x="132" y="201" fill="#AEBBAA" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="12.5">Free to use</text>
+  <circle cx="226" cy="197" r="2" fill="#536653"/>
+  <text x="237" y="201" fill="#AEBBAA" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="12.5">No account</text>
+  <circle cx="326" cy="197" r="2" fill="#536653"/>
+  <text x="337" y="201" fill="#AEBBAA" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="12.5">Private</text>
+
+  <!-- Right-side miniature app preview -->
+  <g>
+    <rect x="407" y="24" width="285" height="192" rx="16" fill="#0D120F" stroke="#344236"/>
+    <path d="M423 25H676" stroke="#B6D2AD" stroke-opacity=".12"/>
+    <circle cx="425" cy="39" r="3" fill="#647663"/>
+    <circle cx="435" cy="39" r="3" fill="#647663" opacity=".65"/>
+    <circle cx="445" cy="39" r="3" fill="#647663" opacity=".35"/>
+    <text x="465" y="43" fill="#849681" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="9.5" letter-spacing=".8">YOUR FOCUS SPACE</text>
+
+    <!-- Timer ring -->
+    <g transform="translate(490 105)">
+      <circle r="37" stroke="#29382B" stroke-width="5"/>
+      <circle r="37" stroke="url(#ring)" stroke-width="5" stroke-linecap="round" stroke-dasharray="174 233" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="0;18;0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="28" fill="#151E17"/>
+      <text x="0" y="-1" text-anchor="middle" fill="#E2EEDD" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.6">25:00</text>
+      <text x="0" y="13" text-anchor="middle" fill="#8DA38A" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="8" letter-spacing="1.2">FOCUS</text>
+      <circle cx="0" cy="-37" r="3.5" fill="#D5E8CB">
+        <animate attributeName="opacity" values="1;.35;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Task list -->
+    <g font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif">
+      <text x="543" y="69" fill="#B6C6B1" font-size="10.5" font-weight="650">TODAY'S FLOW</text>
+      <rect x="543" y="80" width="132" height="31" rx="7" fill="#18231A" stroke="#304032"/>
+      <circle cx="555" cy="95.5" r="5" fill="#B6D2AD" fill-opacity=".18" stroke="#B6D2AD"/>
+      <path d="M552.5 95.5l1.7 1.7 3.2-3.6" stroke="#D5E8CB" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="566" y="93" fill="#8EA28B" font-size="8.5" text-decoration="line-through">Plan the day</text>
+      <text x="566" y="102" fill="#70826D" font-size="7.5">COMPLETED</text>
+
+      <rect x="543" y="117" width="132" height="31" rx="7" fill="#202D21" stroke="#607B5E"/>
+      <circle cx="555" cy="132.5" r="5" stroke="#B6D2AD" stroke-width="1.2"/>
+      <text x="566" y="130" fill="#DDE9D8" font-size="8.5">Build something</text>
+      <text x="566" y="139" fill="#9EB699" font-size="7.5">IN PROGRESS</text>
+      <rect x="543" y="154" width="132" height="31" rx="7" fill="#141B15" stroke="#28362A"/>
+      <circle cx="555" cy="169.5" r="5" stroke="#526A50" stroke-width="1.2"/>
+      <text x="566" y="167" fill="#91A08E" font-size="8.5">Take a short break</text>
+      <text x="566" y="176" fill="#667764" font-size="7.5">UP NEXT</text>
+    </g>
+
+    <!-- Soft animated audio visualizer -->
+    <g transform="translate(424 190)" fill="#9FC297">
+      <rect x="0" y="-3" width="3" height="6" rx="1.5">
+        <animate attributeName="height" values="4;10;4" dur="1s" repeatCount="indefinite"/><animate attributeName="y" values="-2; -5; -2" dur="1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="6" y="-5" width="3" height="10" rx="1.5" opacity=".8">
+        <animate attributeName="height" values="7;14;7" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="-3.5;-7;-3.5" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="12" y="-2" width="3" height="4" rx="1.5" opacity=".65">
+        <animate attributeName="height" values="3;9;3" dur=".8s" repeatCount="indefinite"/><animate attributeName="y" values="-1.5;-4.5;-1.5" dur=".8s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="18" y="-4" width="3" height="8" rx="1.5" opacity=".8">
+        <animate attributeName="height" values="5;12;5" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="-2.5;-6;-2.5" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="452" y="194" fill="#83947F" font-family="Inter, ui-sans-serif, system-ui, Arial, sans-serif" font-size="9.5">calm sounds</text>
+    <path d="M534 191H675" stroke="#28362A" stroke-linecap="round"/>
+    <circle cx="661" cy="191" r="2.5" fill="#B6D2AD">
+      <animate attributeName="opacity" values="1;.3;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
